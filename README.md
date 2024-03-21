@@ -1,7 +1,4 @@
 # SarasTestRepository
 
-Hello SaraGurra! Thanks for using this template.
-
-Don't forget to update this README.md file to suit your project's needs!
-
+Det här är ett repo jag använder för att lära mig hur GitHub och TEI fungerar.
 
