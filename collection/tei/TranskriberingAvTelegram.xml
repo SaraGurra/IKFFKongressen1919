@@ -136,7 +136,7 @@
    
    <text>
       <body>
-         <div type="page" n="1">
+         <div type="page" facs="#TelegramSidaEttFramsida">
           <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
          <p rend="align(center)">= widegren sibyllegatan 59 stockholm </p>
          <!-- ska vi sätta align center på allt? eller inget? -->
@@ -152,7 +152,7 @@
          </div>
          
          <!-- Här startar sida 2 -->
-         <div type="page" n="2">
+         <div type="page" facs="#TelegramSidaTvaFramsida">
          <p>fruits of the secret treaties to the
             <lb/>conquerors the terms of peace tacitly
             <lb/>sanction secret diplomacy deny the principle
@@ -171,7 +171,7 @@
          </p>
          </div>
          <!-- Här startar sid 3 -->
-         <div type="page" n="3">
+         <div type="page" facs="#TelegramSidaTreFramsida">
          <p>nation with a deep sense of respo<add>n</add> isibility
             <lb/>this congress strongly urges the allied
             <lb/>governments to accept such amendments of
