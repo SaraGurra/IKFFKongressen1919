@@ -37,8 +37,10 @@
                <country>Sverige</country>
             </address>
             <availability status="free">
-               <licence>Published under a <ref target="http​://creativecommons​.org​/licenses​/XXX">Creative Commons  XXXXX License</ref>
-                  <!-- här skriver vi in Create Commons licensen vi bedömer passar, men vi bör kankse kolla med Rachel om copyright, om vi ska referera till KvinnSam? -->
+               <licence>Published under a 
+                  <!-- <ref target="http​://creativecommons​.org​/licenses​/XXX">
+                     Creative Commons  XXXXX License</ref> 
+                  här skriver vi in Create Commons licensen vi bedömer passar, men vi bör kankse kolla med Rachel om copyright, om vi ska referera till KvinnSam? -->
                </licence>
                <p>Telegrammet är inte publicerat och bedöms ligga utanför copyright</p>
             </availability>
@@ -93,6 +95,45 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
+   <!-- Här kommer facsimile-elementet in.-->
+   
+   
+      
+  <facsimile>
+      <surface xml:id="TelegramSidaEttFramsida">
+         <figure>
+            <label>Telegram sida 1</label>
+            <figDesc>
+               Telegram sida 1.
+            </figDesc>
+            <graphic xml:id="TelegramSidaEttFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttFramsida.jpeg"/>
+           
+         </figure>
+      </surface>
+      <surface xml:id="TelegramSidaTvaFramsida">
+         <figure>
+            <label>Telegram sida 2</label>
+            <figDesc>
+               Telegram sida 2.
+            </figDesc>
+            <graphic xml:id="TelegramSidaTvaFramsidaaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaFramsida.jpeg"/>
+         
+         </figure>
+      </surface>
+       <surface xml:id="TelegramSidaTreFramsida">
+         <figure>
+            <label>Telegram sida 3</label>
+            <figDesc>
+               Telegram sida 3.
+            </figDesc>
+            <graphic xml:id="TelegramSidaTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreFramsida.jpeg"/>
+           
+         </figure>
+      </surface>
+   </facsimile>     
+   
+   
+   
    <text>
       <body>
          <div type="page" n="1">
