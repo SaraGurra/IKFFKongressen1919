@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Elektronisk rranskribering av telegram till Widegren</title>
+            <title>Elektronisk transkribering av telegram till Widegren</title>
             <author>
                <persName>Kroepelien</persName>
             </author>
@@ -95,6 +95,8 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
+  
+   
    <!-- Här kommer facsimile-elementet in.-->
    
    
@@ -116,7 +118,7 @@
             <figDesc>
                Telegram sida 2.
             </figDesc>
-            <graphic xml:id="TelegramSidaTvaFramsidaaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaFramsida.jpeg"/>
+            <graphic xml:id="TelegramSidaTvaFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaFramsida.jpeg"/>
          
          </figure>
       </surface>
@@ -132,7 +134,7 @@
       </surface>
    </facsimile>     
    
-   
+<!-- Och här kommer den tei-taggade texten som kopplas till telegramsida -->   
    
    <text>
       <body>
