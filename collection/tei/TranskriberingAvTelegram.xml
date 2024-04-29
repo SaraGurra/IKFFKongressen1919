@@ -110,7 +110,7 @@
             <figDesc>
                Telegram sida 1.
             </figDesc>
-            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidEttAvTreFramsida.jpeg"></graphic>
+            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttAvTreFramsida.jpeg"></graphic>
            
          </figure>
       </surface>
@@ -120,7 +120,7 @@
             <figDesc>
                Telegram sida 2.
             </figDesc>
-            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFrasida.jpeg"/>
+            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFramsida.jpeg"/>
          
          </figure>
       </surface>
@@ -140,7 +140,7 @@
    
    <text>
       <body>
-        <div type="page" facs="#TelegramSidaEttAvTreFramsida">
+         <div type="page" facs="#TelegramSidaEttAvTreFramsida">
            <!-- https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX Jag funderar lite över  det som Jakob sa om facsimil. 
            Men undrar om det blir dubbelt med det som Sar alagt in nu med referens til bilderna så fint. Se https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX
            Vi kan väl prta om det på fredag. -->
