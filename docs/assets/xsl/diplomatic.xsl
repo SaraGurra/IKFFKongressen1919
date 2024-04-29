@@ -34,6 +34,7 @@
                     <a href="foton.html">Fotografier</a> |
                     <a href="TranskriberingAvTelegram.html">Telegram</a> |
                     <a href="brev.html">Brev</a> |
+                    <a href="bakgrund.html">Bakgrund</a> |
                     <a href="om.html">Om</a> |
                 </nav>
                 <main id="manuscript">

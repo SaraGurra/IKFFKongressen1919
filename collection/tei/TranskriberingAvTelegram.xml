@@ -104,33 +104,33 @@
    
       
   <facsimile>
-      <surface xml:id="TelegramSidaEttFramsida">
+      <surface xml:id="TelegramSidaEttAvTreFramsida">
          <figure>
             <label>Telegram sida 1</label>
             <figDesc>
                Telegram sida 1.
             </figDesc>
-            <graphic xml:id="TelegramSidaEttFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttFramsida.jpeg"/>
+            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidEttAvTreFramsida.jpg"></graphic>
            
          </figure>
       </surface>
-      <surface xml:id="TelegramSidaTvaFramsida">
+      <surface xml:id="TelegramSidaTvaAvTreFramsida">
          <figure>
             <label>Telegram sida 2</label>
             <figDesc>
                Telegram sida 2.
             </figDesc>
-            <graphic xml:id="TelegramSidaTvaFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaFramsida.jpeg"/>
+            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFrasida.jpg"/>
          
          </figure>
       </surface>
-       <surface xml:id="TelegramSidaTreFramsida">
+       <surface xml:id="TelegramSidaTreAvTreFramsida">
          <figure>
             <label>Telegram sida 3</label>
             <figDesc>
                Telegram sida 3.
             </figDesc>
-            <graphic xml:id="TelegramSidaTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreFramsida.jpeg"/>
+            <graphic xml:id="TelegramSidaTreAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreavTreFramsida.jpg"/>
            
          </figure>
       </surface>
@@ -140,7 +140,7 @@
    
    <text>
       <body>
-        <div type="page" facs="#TelegramSidaEttFramsida">
+        <div type="page" facs="#TelegramSidaEttAvTreFramsida">
            <!-- https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX Jag funderar lite över  det som Jakob sa om facsimil. 
            Men undrar om det blir dubbelt med det som Sar alagt in nu med referens til bilderna så fint. Se https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX
            Vi kan väl prta om det på fredag. -->
@@ -159,7 +159,7 @@
          </div>
          
          <!-- Här startar sida 2 -->
-         <div type="page" facs="#TelegramSidaTvaFramsida">
+         <div type="page" facs="#TelegramSidaTvaAvTreFramsida">
          <p>fruits of the secret treaties to the
             <lb/>conquerors the terms of peace tacitly
             <lb/>sanction secret diplomacy deny the principle
@@ -178,7 +178,7 @@
          </p>
          </div>
          <!-- Här startar sid 3 -->
-         <div type="page" facs="#TelegramSidaTreFramsida">
+         <div type="page" facs="#TelegramSidaTreAvTreFramsida">
             <p>nation with a deep sense of respo<add place="inline" hand="OK">n</add> isibility
             <lb/>this congress strongly urges the allied
             <lb/>governments to accept such amendments of
