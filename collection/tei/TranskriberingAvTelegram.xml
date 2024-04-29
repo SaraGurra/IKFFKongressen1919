@@ -110,7 +110,7 @@
             <figDesc>
                Telegram sida 1.
             </figDesc>
-            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidEttAvTreFramsida.jpg"></graphic>
+            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidEttAvTreFramsida.jpeg"></graphic>
            
          </figure>
       </surface>
@@ -120,7 +120,7 @@
             <figDesc>
                Telegram sida 2.
             </figDesc>
-            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFrasida.jpg"/>
+            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFrasida.jpeg"/>
          
          </figure>
       </surface>
@@ -130,7 +130,7 @@
             <figDesc>
                Telegram sida 3.
             </figDesc>
-            <graphic xml:id="TelegramSidaTreAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreavTreFramsida.jpg"/>
+            <graphic xml:id="TelegramSidaTreAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreavTreFramsida.jpeg"/>
            
          </figure>
       </surface>
