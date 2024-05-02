@@ -171,14 +171,15 @@
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
           <p>Skriver in text nu men den ska märkas upp med teikod sedan. </p> 
-       
-         <p>Fröken Matilda Widegren
+            
+            <p rend="align(center)">Fröken Matilda Widegren
             <lb/>Sibyllegatan 59
-            <lb/>Stockholm.
+            <lb/>Stockholm.</p>
+            <p>
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
             <lb/>ma  att<!-- här har de skjutit in ett streck, tei-kod in här!-->diskuteras vid det möte på Auditorium<!-- tagga med tei för plats--> i dag, där Ni
-            <lb/>skall tala, bedj vi att få fästa Eder uppmärksamhet på den 
+            <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
             <lb/>indiska frågan
          </p>
          </div>
