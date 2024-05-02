@@ -13,7 +13,7 @@
             <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</principal>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne</name>
-               <resp>Transcribed by</resp>
+               <resp>Transkriberad av</resp>
             </respStmt>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</name>
@@ -47,13 +47,14 @@
             <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
                Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
                och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
-               självständiga medlemmar i Nationernas Förbund. Brevet återfinns i arkivet för
-               Internationella kvinnoförbundet för fred och frihet hos Göteborgs
-               universitetsbibliotek, KvinnSam, B 36, 
+               självständiga medlemmar i Nationernas Förbund. Brevet återfinns i <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref>
+               i KvinnSams arkiv, 
+               Humanistiska biblioteket, Göteborgs universitet.           
+        KvinnSam, B 36, 
                
                kartong 1915-1921 IKFF Accession 1986-05-06.
                Länk: https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346</p>
-            <!--  Kolla låda och länk till Alvin för brevet -->
+            <!--  Har vi bestämt att låda inte ska med? -->
          </sourceDesc>
       </fileDesc>
      
@@ -66,13 +67,29 @@
             <factuality/>
             <interaction/>
             <preparedness/>
-            <purpose/>
+            <purpose type="pursuade"/>
          </textDesc>
+         <langUsage>
+            <language ident="se">Svenska</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Virendranâth Chattopaðhyâya</persName>
+               <placeName>Stockholm</placeName>
+               <date when="1919-01-28"/>
+            </correspAction>
+            
+            <correspAction type="received">
+               <persName>Matilda Widegren</persName>
+               <placeName>Stockholm</placeName>
+               <date>okänt</date>
+            </correspAction>
+         </correspDesc>
          <creation>
             Brev från
             <persName ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya">Virendranâth Chattopaðhyâya</persName>
             till
-            <persName ref="https://www.alvin-portal.org/">Matilda Widegren</persName>
+            <persName ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren">Matilda Widegren</persName>
             den
             <date when="1911-06-27">27 juni 1911</date>
          </creation>
@@ -88,6 +105,11 @@
                </list>
             </keywords>
          </textClass>
+         <handNotes>
+            <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
+               <p>De bokstäerver som på två platser skjutis in med blyerts</p>
+            </handNote>
+         </handNotes>
       </profileDesc>
      
       <encodingDesc>
@@ -106,33 +128,11 @@
             <segmentation>
                <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets radbrytning</p>
                <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och numrering 1, 2 eller 3</p>
-               <!-- Är denna sidmarkering riktig?? -->
+               <!-- Behöver detta vara med för brevet? -->
             </segmentation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="se">Svenska</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName>Virendranâth Chattopaðhyâya</persName>
-               <placeName>Stockholm</placeName>
-               <date when="1919-01-28"/>
-               </correspAction>
-             
-               <correspAction type="received">
-                  <persName>Matilda Widegren</persName>
-                  <placeName>Stockholm</placeName>
-                  <date>okänt</date>
-               </correspAction>
-         </correspDesc>
-         <handNotes>
-            <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
-               <p>De bokstäerver som på två platser skjutis in med blyerts</p>
-            </handNote>
-         </handNotes>
-      </profileDesc>
+      
    </teiHeader>
   
    
@@ -171,14 +171,14 @@
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
            
        
-         <p>Detta är html-sidan genererad från tei-filen BrevTei.xml Denna text ska inte vara här sedan.
+         <p>Detta är html-sidan genererad från tei-filen BrevTei.xml Ska brevtexten ligga här?
             <lb/>
          </p>
          </div>
          
          <!-- Här startar sida 2 -->
          <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
-         <p>In med text här?
+         <p>In med brevtext här?
             <lb/>kanske
          </p>
          </div>
