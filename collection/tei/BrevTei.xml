@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brev till Matilda Widegren</title>
+            <author>
+               <persName>Virendranâth Chattopaðhyâya</persName>
+            </author>
+            <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</principal>
+            <respStmt>
+               <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne</name>
+               <resp>Transcribed by</resp>
+            </respStmt>
+            <respStmt>
+               <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</name>
+               <resp>Transcirpion and encoding edited and reviewed by</resp>
+            </respStmt>
+         </titleStmt>
+         <extent>2 sidor maskinskriven text, totalt 37 rader text</extent>
+         <publicationStmt>
+            <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</authority>
+            <distributor>Högskolan i Borås</distributor>
+            <!-- Så här står det i TEI-guidleines: The publisher is the person or institution by whose authority
+               a given edition of the file is made public. The distributor is the person or institution from 
+               whom copies of the text may be obtained. Where a text is not considered formally published, but 
+               is nevertheless made available for circulation by some individual or organization, this person 
+               or institution is termed the release authority. Vilken är rätt att använda för oss?-->
+            <address>
+               <name type="insitution">Bibliotekhögskolan</name>
+               <street>Allégatan 1</street>
+               <postCode>503 32 </postCode>
+               <settlement>Borås</settlement>
+               <country>Sverige</country>
+            </address>
+            <availability status="free">
+               <licence>Published under a <ref target="https://creativecommons.org/publicdomain/mark/1.0/">
+                  Creative Commons  XXXXX License</ref></licence>               
+               <p>Brevet är inte publicerat och bedöms ligga utanför copyright</p>
+            </availability>
+            <date when="1919-01-28"></date>  
+         </publicationStmt>
+         <sourceDesc>
+            <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
+               Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
+               och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
+               självständiga medlemmar i Nationernas Förbund. Brevet återfinns i arkivet för
+               Internationella kvinnoförbundet för fred och frihet hos Göteborgs
+               universitetsbibliotek, KvinnSam, B 36, 
+               
+               kartong 1915-1921 IKFF Accession 1986-05-06.
+               Länk: https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346</p>
+            <!--  Kolla låda och länk till Alvin för brevet -->
+         </sourceDesc>
+      </fileDesc>
+     
+      <profileDesc>
+         <textDesc>
+            <channel/>
+            <constitution/>
+            <derivation/>
+            <domain/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <creation>
+            Brev från
+            <persName ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya">Virendranâth Chattopaðhyâya</persName>
+            till
+            <persName ref="https://www.alvin-portal.org/">Matilda Widegren</persName>
+            den
+            <date when="1911-06-27">27 juni 1911</date>
+         </creation>
+         <textClass>
+            <keywords scheme="https://www.getty.edu/research/tools/vocabularies/aat/">
+               <list>
+                  <item>
+                     <ref target="http://vocab.getty.edu/page/aat/300025492">författare</ref>
+                  </item>
+                  <item>
+                     <ref target="http://vocab.getty.edu/page/aat/300026877">korrespondens</ref>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+     
+      <encodingDesc>
+         <projectDesc>
+            <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås, Masterprogram i 
+               Biblioteks- och informationsvetenskap, distansutbildning BMBD1 32034, md start HT2023, specifikt 
+               kursen Digitalisering för bevarande och tillgänglighet C3IDB1 B29V4 löpande under VT2024. 
+               Uppgiften består i att i smaverkan med en extrern organisation genomföra ett kritiskt inriktat 
+               digitaliseringsprojekt för att bevara och tillgängliggöra kulturarvsmaterial. Detta projekt 
+               samarbetar med Rachecl Pierce vid Kvinnsam, GöteborgsUniversitet, med att digitalisera material 
+               från deras arkiv innehållande IKFF:s samlingar av dokument och artefakter.</p> 
+         </projectDesc>
+         <editorialDecl>
+            <p>Texten har transkriverats exakt så som den står i telegrammet. Stavfel har markerats med elementet
+            sic och bokstäver adderade med blyerts har markerats med elementet add. </p>
+            <segmentation>
+               <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets radbrytning</p>
+               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och numrering 1, 2 eller 3</p>
+               <!-- Är denna sidmarkering riktig?? -->
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sve">Svenska</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Virendranâth Chattopaðhyâya</persName>
+               <placeName>Stockholm</placeName>
+               <date when="1919-01-28"/>
+               </correspAction>
+             
+               <correspAction type="received">
+                  <persName>Matilda Widegren</persName>
+                  <placeName>Stockholm</placeName>
+                  <date>1919-01-28</date>
+               </correspAction>
+         </correspDesc>
+         <handNotes>
+            <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
+               <p>De bokstäerver som på två platser skjutis in med blyerts</p>
+            </handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+  
+   
+   <!-- Här kommer facsimile-elementet in.-->
+   
+   
+      
+  <facsimile>
+      <surface xml:id="BrevSidaEttAvTvaFramsida">
+         <figure>
+            <label>Brev sida 1</label>
+            <figDesc>
+               Brev sida 1.
+            </figDesc>
+            <graphic xml:id="BrevSidaEttAvTvaFramsidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaFramsida.jpeg"/>
+           
+         </figure>
+      </surface>
+      <surface xml:id="BrevSidaTvaAvTvaFramsida">
+         <figure>
+            <label>Brev sida 2</label>
+            <figDesc>
+               Brev sida 2.
+            </figDesc>
+            <graphic xml:id="BrevSidaTvaAvTvaFramsidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaFramsida.jpeg"/>
+         
+         </figure>
+      </surface>
+      
+   </facsimile>     
+   
+<!-- Och här kommer den tei-taggade texten som kopplas till telegramsida -->   
+   
+   <text>
+      <body>
+         <div type="page" facs="#BrevSidaEttAvTvaFramsida">
+           
+       
+         <p>Detta är html-sidan genererad från tei-filen BrevTei.xml Denna text ska inte vara här sedan.
+            <lb/>
+         </p>
+         </div>
+         
+         <!-- Här startar sida 2 -->
+         <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
+         <p>In med text här?
+            <lb/>kanske
+         </p>
+         </div>
+        
+      </body>
+   </text>
+</TEI>
