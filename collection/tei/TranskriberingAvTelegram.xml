@@ -43,12 +43,12 @@
                   Creative Commons  PDM 1.0 Universal licens</ref></licence>               
                <p>Telegrammet är inte publicerat och bedöms ligga utanför copyright</p>
             </availability>
-            <date when="2024-05-22">22 Maj 2024</date>  
+            <date when="2024-05-22">22 maj 2024</date>  
          </publicationStmt>
          <sourceDesc>
             <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som antagits 
                av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits fredskonferensen och regeringarna 
-               representerande de 9 Nationernas förbund.  Telegrammet återfinns i 
+               representerande de 9 Nationernas förbund. Telegrammet återfinns i 
                <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref> i KvinnSams arkiv, 
                Humanistiska biblioteket, Göteborgs universitet.           
             </p>
@@ -67,7 +67,7 @@
          <editorialDecl>
             <normalization>
                <p>
-                  Texten har transkriverats exakt så som den står i telegrammet. 
+                  Texten har transkriberats exakt så som den står i telegrammet. 
                </p>
             </normalization>
             <correction>
@@ -86,6 +86,25 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
+         <textDesc>
+            <channel>Telegram</channel>
+            <!-- Se https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-channel.html. 
+              Man kan lägga in =mode W, men inte säker på det är rätt. Skriver man telegram eller dikterar?-->
+            <constitution>NEJ</constitution>
+            <!-- SE https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-constitution.html, denna tycker inte jag passar på ett telegramn -->
+         <derivation>NEJ</derivation>
+            <!-- SE https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-derivation.html. Känns som om menar litterär text? -->
+         <domain>OKLART</domain>
+            <!-- SE https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-domain.html. Oklart om behövs? -->
+         <factuality type="fact">Telegrammet beskriver en som gjorts och i vilka ordalag</factuality>
+            <!-- Stäm av formauleringen -->
+            <interaction>NEJ</interaction>
+            <!-- Se: https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-interaction.html. känns mer som om beskriver litterär text, eller pjäs eller liknande -->
+         <preparedness>OKLART</preparedness>
+            <!-- SE https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-preparedness.html. oklart om ska med? -->
+         <purpose type="inform">Texten infromerar om en tagen åtgärd</purpose>
+         </textDesc>
+             
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
