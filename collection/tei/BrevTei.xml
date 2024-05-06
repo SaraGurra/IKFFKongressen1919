@@ -118,7 +118,7 @@
                      <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/gmgpc/swe/Blanketter">Blanketter</ref>
+                     <ref target="https://id.kb.se/term/sao/Imperialism">Imperialism</ref>
                   </item>
                   <item>
                      <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
@@ -126,11 +126,7 @@
                </list>
             </keywords>
          </textClass>
-         <handNotes>      <!--Ändra/ta bort. Motsvarigehet i brevet? -->
-            <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
-               <p>De bokstäver som på två platser skjutis in med blyerts</p>
-            </handNote>
-         </handNotes>
+        
       </profileDesc>
      
       <encodingDesc>
@@ -145,7 +141,7 @@
          </projectDesc>
          <editorialDecl>
             <normalization>
-               <p> Texten har transkriberats exakt så som den står i brevet. </p>
+               <p> Texten har transkriberats exakt så som den står skriven i brevet. </p>
             </normalization>
             <correction>
                <p>All korrigering är gjord med skrivmaskin. Ickekorrigerade stavfel har markerats med elementet <gi>sic</gi>. 
@@ -155,7 +151,7 @@
                   har <gi>del</gi> använts för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till.</p>
             </correction>
             <punctuation>
-               <p>Skiljetecken är återgivna exakt så som de står i brevet. </p>
+               <p>Skiljetecken är återgivna exakt så som de står skrivna i brevet. </p>
             </punctuation>
             <segmentation>
                <p>Rader har markerats med <gi>lb</gi> för att troget återge brevets
@@ -213,7 +209,7 @@
             <p>  
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-               <lb/>ma  att<add type="blankSpace">|</add>     <!--Kalla det något annat än "blank space"?-->
+               <lb/>ma  att<add type="blankSpace">|</add>     <!--Kalla det något annat än "blankSpace"?-->
                diskuteras vid det möte på 
             <placeName type="building">Auditorium</placeName> 
             i dag, där Ni
