@@ -93,21 +93,42 @@
             den
             <date when="1911-06-27">27 juni 1911</date>
          </creation>
+         
          <textClass>
-            <keywords scheme="https://www.getty.edu/research/tools/vocabularies/aat/">
+            <keywords scheme="https://id.kb.se/">
                <list>
                   <item>
-                     <ref target="http://vocab.getty.edu/page/aat/300025492">författare</ref>
+                     <ref target="https://id.kb.se/term/sao/Brev">Brev</ref>
                   </item>
                   <item>
-                     <ref target="http://vocab.getty.edu/page/aat/300026877">korrespondens</ref>
+                     <ref target="https://id.kb.se/term/kao">KVINNSAM</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">
+                        Versaillesfreden 1919</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Schweiz--Z%C3%BCrich">
+                        Schweiz--Zürich</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/gmgpc/swe/Blanketter">Blanketter</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
                   </item>
                </list>
             </keywords>
          </textClass>
          <handNotes>
             <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
-               <p>De bokstäerver som på två platser skjutis in med blyerts</p>
+               <p>De bokstäver som på två platser skjutis in med blyerts</p>
             </handNote>
          </handNotes>
       </profileDesc>
@@ -123,13 +144,20 @@
                från deras arkiv innehållande IKFF:s samlingar av dokument och artefakter.</p> 
          </projectDesc>
          <editorialDecl>
-		 <!--Ta med, och ändra, om vi ska transkribera brevet-->
-            <p>Texten har transkriverats exakt så som den står i telegrammet. Stavfel har markerats med elementet
-            sic och bokstäver adderade med blyerts har markerats med elementet add. </p>
+            <normalization>
+               <p> Texten har transkriberats exakt så som den står i brevet. </p>
+            </normalization>
+            <correction>
+               <p>Stavfel har markerats med elementet <gi>sic</gi>. Bokstäver adderade med blyerts
+                  har markerats med elementet <gi>add</gi>. </p>
+            </correction>
+            <punctuation>
+               <p>Skiljetecken är återgivna exakt så som de står i brevet. </p>
+            </punctuation>
             <segmentation>
-               <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets radbrytning</p>
-               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och numrering 1, 2 eller 3</p>
-               <!-- Behöver detta vara med för brevet? -->
+               <p>Rader har markerats med <gi>lb</gi> för att troget återge brevets
+                  radbrytning</p>
+               
             </segmentation>
          </editorialDecl>
       </encodingDesc>
@@ -218,12 +246,12 @@
             <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska
             <lb/>problemen, vilka ännu vänta på sin lös<!--n n tei-->, och att dessa uttryck-
             <lb/>ligen framhållas i den resolutionen, som skall framläggas för
-            <lb/>landet, utan fruktan för England eller n<!--a-->gon annan nation. 
+            <lb/>landet, utan fruktan för England eller n<!--a-->gon annan nation. </p>
             <lb/>
-            <lb/>            Vi ha äran teckna
-            <lb/>            med utmärkt högaktning
+            <lb/> <p rend="align(center)">Vi ha äran teckna
+            <lb/>       med utmärkt högaktning</p>
             <lb/>
-            <lb/>            <!--Signatur--> Virendranâth Chattopaðhyâya
+            <lb/> <p>           <!--Signatur--> Virendranâth Chattopaðhyâya
             
                         
          </p>
