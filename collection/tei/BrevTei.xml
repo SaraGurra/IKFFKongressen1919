@@ -126,7 +126,7 @@
                </list>
             </keywords>
          </textClass>
-         <handNotes>
+         <handNotes>      <!--Ändra/ta bort. Motsvarigehet i brevet? -->
             <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
                <p>De bokstäver som på två platser skjutis in med blyerts</p>
             </handNote>
@@ -148,8 +148,11 @@
                <p> Texten har transkriberats exakt så som den står i brevet. </p>
             </normalization>
             <correction>
-               <p>Stavfel har markerats med elementet <gi>sic</gi>. Bokstäver adderade med blyerts
-                  har markerats med elementet <gi>add</gi>. </p>
+               <p>All korrigering är gjord med skrivmaskin. Ickekorrigerade stavfel har markerats med elementet <gi>sic</gi>. 
+                  Adderade tecken har markerats med elementet <gi>add</gi>. När lodstreck (|) lagts till för att indikera att det fattas ett mellanslag 
+                  har värdet av "type" satts till blankSpace.
+                  Ändrade/korrigerade tecken har markerats med <gi>subst</gi> och inom detta element
+                  har <gi>del</gi> använts för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till.</p>
             </correction>
             <punctuation>
                <p>Skiljetecken är återgivna exakt så som de står i brevet. </p>
@@ -203,16 +206,16 @@
             <p rend="align(center)">
                Fröken <name>Matilda Widegren</name><lb/>
                <address>
-                  <street>sibyllegatan 59</street><lb/>
+                  <street>Sibyllegatan 59</street><lb/>
                   <settlement> stockholm</settlement><lb/>
                </address>
             </p>
             <p>  
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-               <lb/>ma  att<add type="blankSpace">|</add><!--Kalla det något annat än "blank space"?-->
+               <lb/>ma  att<add type="blankSpace">|</add>     <!--Kalla det något annat än "blank space"?-->
                diskuteras vid det möte på 
-            <placeName>Auditorium</placeName> 
+            <placeName type="building">Auditorium</placeName> 
             i dag, där Ni
             <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
             <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
@@ -229,8 +232,9 @@
                   <del>n</del>
                   <add>t</add>
                </subst>ionen, icke underlåter att fram-
-            <lb/>ställa en klar och otvetydig fordran på att Indien, Irland,
-            <lb/>Egypten och Sydafrika, likaväl som Polen, Finland <abbr>o.s.v</abbr>.,må
+            <lb/>ställa en klar och otvetydig fordran på att <placeName type="country">Indien</placeName>, <placeName type="country">Irland</placeName>,
+            <lb/><placeName type="country">Egypten</placeName> och <placeName type="country">Sydafrika</placeName>, likaväl som <placeName type="country">Polen</placeName>,
+               <placeName type="country">Finland</placeName> <abbr>o.s.v</abbr>.,må
             <lb/>fritt och utan utländskt herravälde få bestämma över sitt öde
             <lb/>och intaga sina platser<del>s</del> såsom fria och självständiga medlem-
                <lb/>mar i det föreslagna <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>Nationernas förbund</orgName></ref>. Så, som detta för-
@@ -238,16 +242,16 @@
             <lb/>stormakternas välvilliga hägn, utgör de blott en förberedelse
             <lb/>till ett nytt blodigt krig. Ty vi indier och irländare <abbr>m.fl.</abbr>
             <lb/>ha icke för avsikt att lämna världen i fred, förrän all den
-            <lb/>orätt, som begåtts genom Storbrittaniens vidriga, imperialist-
+            <lb/>orätt, som begåtts genom <placeName type="country">Storbrittaniens</placeName> vidriga, imperialist-
             <lb/>iska kolonialpolitik, blivit <sic>gottgjörd</sic>. Inom Europa råder en 
             <lb/>tyst överenskommelse att nedlägga diskussionen angående alla
-            <lb/>frågor, som kunna vara mindre behagliga för Englands statsmän. 
+            <lb/>frågor, som kunna vara mindre behagliga för <placeName type="region">Englands</placeName> statsmän. 
             <lb/>Vi hoppas innerligt, att Sveriges kvinnor icke skola taga del
             <lb/>i denna överenskommelse. Vi kräva öppen diskussion och ögon-
-            <lb/>blicklig rättvisa. Asien har ännu icke talat, men om den upp-
-            <lb/>lysta oppinionen inom Europa icke är beredd att i godo uppgöra
+            <lb/>blicklig rättvisa. <placeName type="continent">Asien</placeName> har ännu icke talat, men om den upp-
+            <lb/>lysta oppinionen inom <placeName type="continent">Europa</placeName> icke är beredd att i godo uppgöra
             <lb/>dessa tvistefrågor i överensstämmelse med principen om folkens 
-            <lb/>fria självbestämmanderätt, kan Asien komma att vidtaga åtgärder
+            <lb/>fria självbestämmanderätt, kan <placeName type="continent">Asien</placeName> komma att vidtaga åtgärder
             <lb/>som kunna bli ännu mycket oangenämare än de fyra år av blodsut-
             <lb/>gjutelse, vi upplevat <sic>sasom</sic> en följd av de europeiska stormakt-
          </p>
@@ -268,7 +272,7 @@
                <add>i</add>
             </subst>ng, och att dessa uttryck-
             <lb/>ligen framhållas i den resolutionen, som skall framläggas för
-            <lb/>landet, utan fruktan för England eller <sic>nagon</sic> annan nation. </p>
+            <lb/>landet, utan fruktan för <placeName type="region">England</placeName> eller <sic>nagon</sic> annan nation. </p>
             <lb/>
             <lb/> 
             
