@@ -198,31 +198,42 @@
    <text>
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
-          <p>Skriver in text nu men den ska märkas upp med teikod sedan. </p> 
+         
             
-            <p rend="align(center)">Fröken Matilda Widegren
-            <lb/>Sibyllegatan 59
-            <lb/>Stockholm.</p>
-            <p>
+            <p rend="align(center)">
+               Fröken<name>Matilda Widegren</name>
+               <address>
+                  <street>sibyllegatan 59</street>
+                  <settlement> stockholm</settlement>
+               </address>
+            </p>
+            <p>  
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-            <lb/>ma  att<!-- här har de skjutit in ett streck, tei-kod in här!-->
+               <lb/>ma  att<add type="mellanslag">|</add><!--Kalla det något annat än "mellanslag"?-->
                diskuteras vid det möte på 
             <placeName>Auditorium</placeName> 
             i dag, där Ni
             <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
             <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
-            <lb/>Ni benäget torda taga<!--Inskjutet streck för mellanrum-->del av. Å de millioner männsikors vägnar,
+               <lb/>Ni benäget torda taga<add type="mellanslag">|</add>del av. Å de millioner männsikors vägnar,
             <lb/>vilka i tysthet lida under de brittiska imperialisternas grym-
             <lb/>ma utsugningspolitik men vilka sakna möjlighet att göra sina
             <lb/>röster hörda i Europa, bedja vi få uttala vår förhoppning, att
             <lb/>Ni bland de fakta och argument, som i afton komma att fram-
-            <lb/>läggas inför den svenska <!-- n tei-->a<!-- t tei-->ionen, icke underlåter att fram-
+               <lb/>läggas inför den svenska <subst>
+                  <del>d</del>
+                  <add>n</add>
+               </subst>a
+               <subst>
+                  <del>n</del>
+                  <add>t</add>
+               </subst>ionen, icke underlåter att fram-
             <lb/>ställa en klar och otvetydig fordran på att Indien, Irland,
             <lb/>Egypten och Sydafrika, likaväl som Polen, Finland <abbr>o.s.v</abbr>.,må
             <lb/>fritt och utan utländskt herravälde få bestämma över sitt öde
-            <lb/>och intaga sina platser<!--s tei för överstrykning--> såsom fria och självständiga medlem-
-            <lb/>mar i det föreslagna Nationernas förbund. Så, som detta för-
+            <lb/>och intaga sina platser<del>s</del> såsom fria och självständiga medlem-
+               <lb/>mar i det föreslagna <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>Nationernas förbund</orgName></ref>. Så, som detta för-
             <lb/>bund nu planeras under de imperialistiska och annexionistiska
             <lb/>stormakternas välvilliga hägn, utgör de blott en förberedelse
             <lb/>till ett nytt blodigt krig. Ty vi indier och irländare <abbr>m.fl.</abbr>
@@ -247,7 +258,15 @@
          <p>ernas rövarpolitik.
             <lb/>      Vi förlita oss på, att varje talare vid mötet skall syssel-
             <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska
-            <lb/>problemen, vilka ännu vänta på sin lös<!--n n tei-->, och att dessa uttryck-
+            <lb/>problemen, vilka ännu vänta på sin lös
+            <subst>
+               <del>i</del>
+               <add>n</add>
+            </subst>
+            <subst>
+               <del>n</del>
+               <add>i</add>
+            </subst>ng, och att dessa uttryck-
             <lb/>ligen framhållas i den resolutionen, som skall framläggas för
             <lb/>landet, utan fruktan för England eller <sic>nagon</sic> annan nation. </p>
             <lb/>
