@@ -206,7 +206,10 @@
             <p>
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-            <lb/>ma  att<!-- här har de skjutit in ett streck, tei-kod in här!-->diskuteras vid det möte på Auditorium<!-- tagga med tei för plats--> i dag, där Ni
+            <lb/>ma  att<!-- här har de skjutit in ett streck, tei-kod in här!-->
+               diskuteras vid det möte på 
+            <placeName>Auditorium</placeName> 
+            i dag, där Ni
             <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
             <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
             <lb/>Ni benäget torda taga<!--Inskjutet streck för mellanrum-->del av. Å de millioner männsikors vägnar,
@@ -216,16 +219,16 @@
             <lb/>Ni bland de fakta och argument, som i afton komma att fram-
             <lb/>läggas inför den svenska <!-- n tei-->a<!-- t tei-->ionen, icke underlåter att fram-
             <lb/>ställa en klar och otvetydig fordran på att Indien, Irland,
-            <lb/>Egypten och Sydafrika, likaväl som Polen, Finland o.s.v.,må
+            <lb/>Egypten och Sydafrika, likaväl som Polen, Finland <abbr>o.s.v</abbr>.,må
             <lb/>fritt och utan utländskt herravälde få bestämma över sitt öde
             <lb/>och intaga sina platser<!--s tei för överstrykning--> såsom fria och självständiga medlem-
             <lb/>mar i det föreslagna Nationernas förbund. Så, som detta för-
             <lb/>bund nu planeras under de imperialistiska och annexionistiska
             <lb/>stormakternas välvilliga hägn, utgör de blott en förberedelse
-            <lb/>till ett nytt blodigt krig. Ty vi indier och irländare m.fl.
+            <lb/>till ett nytt blodigt krig. Ty vi indier och irländare <abbr>m.fl.</abbr>
             <lb/>ha icke för avsikt att lämna världen i fred, förrän all den
             <lb/>orätt, som begåtts genom Storbrittaniens vidriga, imperialist-
-            <lb/>iska kolonialpolitik, blivit gottgj<!--ö sic-->rd. Inom Europa råder en 
+            <lb/>iska kolonialpolitik, blivit <sic>gottgjörd</sic>. Inom Europa råder en 
             <lb/>tyst överenskommelse att nedlägga diskussionen angående alla
             <lb/>frågor, som kunna vara mindre behagliga för Englands statsmän. 
             <lb/>Vi hoppas innerligt, att Sveriges kvinnor icke skola taga del
@@ -235,7 +238,7 @@
             <lb/>dessa tvistefrågor i överensstämmelse med principen om folkens 
             <lb/>fria självbestämmanderätt, kan Asien komma att vidtaga åtgärder
             <lb/>som kunna bli ännu mycket oangenämare än de fyra år av blodsut-
-            <lb/>gjutelse, vi upplevat s<!--a sic -->som en följd av de europeiska stormakt-
+            <lb/>gjutelse, vi upplevat <sic>sasom</sic> en följd av de europeiska stormakt-
          </p>
          </div>
          
@@ -246,15 +249,17 @@
             <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska
             <lb/>problemen, vilka ännu vänta på sin lös<!--n n tei-->, och att dessa uttryck-
             <lb/>ligen framhållas i den resolutionen, som skall framläggas för
-            <lb/>landet, utan fruktan för England eller n<!--a-->gon annan nation. </p>
+            <lb/>landet, utan fruktan för England eller <sic>nagon</sic> annan nation. </p>
             <lb/>
-            <lb/> <p rend="align(center)">Vi ha äran teckna
-            <lb/>       med utmärkt högaktning</p>
+            <lb/> 
+            
+               <closer rend="align(center)"> <signed>︎Vi ha äran teckna
+            <lb/>       med utmärkt högaktning
             <lb/>
-            <lb/> <p>           <!--Signatur--> Virendranâth Chattopaðhyâya
+            <lb/>           <name>Virendranâth Chattopaðhyâya</name></signed></closer>
             
                         
-         </p>
+         
          </div>
         
       </body>
