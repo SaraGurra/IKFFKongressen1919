@@ -201,7 +201,7 @@
          
             
             <p rend="align(center)">
-               Fröken<name>Matilda Widegren</name>
+               Fröken <name>Matilda Widegren</name>
                <address>
                   <street>sibyllegatan 59</street>
                   <settlement> stockholm</settlement>
@@ -210,13 +210,13 @@
             <p>  
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-               <lb/>ma  att<add type="mellanslag">|</add><!--Kalla det något annat än "mellanslag"?-->
+               <lb/>ma  att<add type="blankSpace">|</add><!--Kalla det något annat än "blank space"?-->
                diskuteras vid det möte på 
             <placeName>Auditorium</placeName> 
             i dag, där Ni
             <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
             <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
-               <lb/>Ni benäget torda taga<add type="mellanslag">|</add>del av. Å de millioner männsikors vägnar,
+               <lb/>Ni benäget torda taga<add type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
             <lb/>vilka i tysthet lida under de brittiska imperialisternas grym-
             <lb/>ma utsugningspolitik men vilka sakna möjlighet att göra sina
             <lb/>röster hörda i Europa, bedja vi få uttala vår förhoppning, att
