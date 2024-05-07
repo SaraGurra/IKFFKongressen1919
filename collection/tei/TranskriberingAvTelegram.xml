@@ -80,7 +80,7 @@
                   har markerats med elementet <gi>add</gi>. </p>
             </correction>
             <punctuation>
-               <p>Som förväntat i ett telegram förekommer inga slkiljetecken, varför de inte heller
+               <p>Som förväntat i ett telegram förekommer inga skiljetecken, varför de inte heller
                   förekommer i transkriberingen. </p>
             </punctuation>
             <segmentation>
@@ -94,23 +94,14 @@
       </encodingDesc>
       <profileDesc>
          <textDesc>
-            <channel>Telegram</channel>
-            <!-- Se https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-channel.html. 
-              Man kan lägga in =mode W, men inte säker på det är rätt. Skriver man telegram eller dikterar?-->
-            <constitution>NEJ</constitution>
-            <!-- SE https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-constitution.html, denna tycker inte jag passar på ett telegramn -->
-            <derivation>NEJ</derivation>
-            <!-- SE https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-derivation.html. Känns som om menar litterär text? -->
-            <domain>OKLART</domain>
-            <!-- SE https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-domain.html. Oklart om behövs? -->
-            <factuality type="fact">Telegrammet beskriver en som gjorts och i vilka
-               ordalag</factuality>
-            <!-- Stäm av formauleringen -->
-            <interaction>NEJ</interaction>
-            <!-- Se: https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-interaction.html. känns mer som om beskriver litterär text, eller pjäs eller liknande -->
-            <preparedness>OKLART</preparedness>
-            <!-- SE https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-preparedness.html. oklart om ska med? -->
-            <purpose type="inform">Texten informerar om en tagen åtgärd</purpose>
+            <channel mode="w">Telegram</channel>
+            <constitution type="single"/>
+            <derivation type="abridgment"/>
+            <domain type="public"/>
+           <factuality type="fact"/>
+        <interaction active="plural"/>
+            <preparedness type="revised"/>
+            <purpose type="inform"/>
          </textDesc>
 
          <langUsage>
@@ -120,13 +111,12 @@
             <correspAction type="sent">
                <persName>Kroepelien</persName>
                <placeName>Zürich</placeName>
-               <date when="1919"/>
+               <date when="1919-05-13"/>
             </correspAction>
-            <!-- Om vi lyckas tyda datumet kan vi lägga in det exakta -->
             <correspAction type="received">
-               <persName>Matilda Widegren</persName>
+               <forename>Matilda</forename><surname>Widegren</surname>
                <placeName>Stockholm</placeName>
-               <date>unknown</date>
+               <date>1919-13-05</date>
             </correspAction>
          </correspDesc>
          <handNotes>
@@ -142,7 +132,7 @@
                         https://id.kb.se/term/kao">KVINNSAM</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/sao/Kvinnohistoria">kvinnohistoria</ref>
+                     <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
                   </item>
                   <item>
                      <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">
@@ -206,10 +196,8 @@
 
    <text>
       <body>
-         <div type="page" facs="#TelegramSidaEttAvTreFramsida">
-            <!-- https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX Jag funderar lite över  det som Jakob sa om facsimil. 
-           Men undrar om det blir dubbelt med det som Sar alagt in nu med referens til bilderna så fint. Se https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX
-           Vi kan väl prta om det på fredag. -->
+         <pb type="page" facs="#TelegramSidaEttAvTreFramsida"/>
+         <!-- Nedan följer texten på sida 1 -->
             <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
             <p rend="align(center)">= <surname>widegren</surname>
                <address>
@@ -221,15 +209,14 @@
                   <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
                      <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress
                <lb/>of women expresses its deep regret that the <lb/>terms of peace prm <add
-                  place="inline" hand="OK">o</add> posed at <placeName><ref
-                     target="https://sv.wikipedia.org/wiki/Versaillesfreden"
-                  >versailles</ref></placeName> should <lb/>so seriously violate the principles upon
+                  place="inline" hand="OK">o</add> posed at <eventName
+                     ref="https://sv.wikipedia.org/wiki/Versaillesfreden">versailles</eventName> 
+               should <lb/>so seriously violate the principles upon
                <lb/>which alone adjust and lastin peace can <lb/>be secured and which the
                democracies of the <lb/>world had come to accept by guaranteeing the </p>
-         </div>
 
-         <!-- Här startar sida 2 -->
-         <div type="page" facs="#TelegramSidaTvaAvTreFramsida">
+         <pb type="page" facs="#TelegramSidaTvaAvTreFramsida"/>
+         <!-- Nedan följer texten på sida 2 -->
             <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
                tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
                recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all
@@ -240,9 +227,10 @@
                   <sic>genesation</sic> in the <lb/>heart of europe are condemned to poverty
                <lb/>disease and <sic>despais</sic> which must result in the <lb/>spread of hatred
                and anarchy within each </p>
-         </div>
-         <!-- Här startar sid 3 -->
-         <div type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left">
+
+         
+         <pb type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left"/>
+         <!-- Nedan följer texten på sida 3 -->
             <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
                isibility <lb/>this congress strongly urges the allied <lb/>governments to accept
                such amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into
@@ -252,7 +240,6 @@
                      ><roleName type="office">president</roleName><surname> wilson</surname></ref>
                upon <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples
                depends = <lb/><persName rend="right"> kroepelien</persName> * </p>
-         </div>
       </body>
    </text>
 </TEI>
