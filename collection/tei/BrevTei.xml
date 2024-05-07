@@ -13,7 +13,7 @@
             <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</principal>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne</name>
-               <resp>Transcribed by</resp>
+               <resp>Transkriberad av</resp>
             </respStmt>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</name>
@@ -41,19 +41,20 @@
                   Creative Commons  XXXXX License</ref></licence>               
                <p>Brevet är inte publicerat och bedöms ligga utanför copyright</p>
             </availability>
-            <date when="1919-01-28"></date>  
+            <date when="2024-05-22">22 maj 2024</date>  
          </publicationStmt>
          <sourceDesc>
             <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
                Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
                och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
-               självständiga medlemmar i Nationernas Förbund. Brevet återfinns i arkivet för
-               Internationella kvinnoförbundet för fred och frihet hos Göteborgs
-               universitetsbibliotek, KvinnSam, B 36, 
+               självständiga medlemmar i Nationernas Förbund. Brevet återfinns i <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref>
+               i KvinnSams arkiv, 
+               Humanistiska biblioteket, Göteborgs universitet.           
+        KvinnSam, B 36, 
                
                kartong 1915-1921 IKFF Accession 1986-05-06.
                Länk: https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346</p>
-            <!--  Kolla låda och länk till Alvin för brevet -->
+            <!--  Har vi bestämt att låda inte ska med? -->
          </sourceDesc>
       </fileDesc>
      
@@ -66,28 +67,66 @@
             <factuality/>
             <interaction/>
             <preparedness/>
-            <purpose/>
+            <purpose type="pursuade"/>
          </textDesc>
+         <langUsage>
+            <language ident="se">Svenska</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Virendranâth Chattopaðhyâya</persName>
+               <placeName>Stockholm</placeName>
+               <date when="1919-01-28"/>
+            </correspAction>
+            
+            <correspAction type="received">
+               <persName>Matilda Widegren</persName>
+               <placeName>Stockholm</placeName>
+               <date>okänt</date>
+            </correspAction>
+         </correspDesc>
          <creation>
             Brev från
             <persName ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya">Virendranâth Chattopaðhyâya</persName>
             till
-            <persName ref="https://www.alvin-portal.org/">Matilda Widegren</persName>
+            <persName ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren">Matilda Widegren</persName>
             den
             <date when="1911-06-27">27 juni 1911</date>
          </creation>
+         
          <textClass>
-            <keywords scheme="https://www.getty.edu/research/tools/vocabularies/aat/">
+            <keywords scheme="https://id.kb.se/">
                <list>
                   <item>
-                     <ref target="http://vocab.getty.edu/page/aat/300025492">författare</ref>
+                     <ref target="https://id.kb.se/term/sao/Brev">Brev</ref>
                   </item>
                   <item>
-                     <ref target="http://vocab.getty.edu/page/aat/300026877">korrespondens</ref>
+                     <ref target="https://id.kb.se/term/kao">KVINNSAM</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">
+                        Versaillesfreden 1919</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Schweiz--Z%C3%BCrich">
+                        Schweiz--Zürich</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Imperialism">Imperialism</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
                   </item>
                </list>
             </keywords>
          </textClass>
+        
       </profileDesc>
      
       <encodingDesc>
@@ -101,38 +140,27 @@
                från deras arkiv innehållande IKFF:s samlingar av dokument och artefakter.</p> 
          </projectDesc>
          <editorialDecl>
-            <p>Texten har transkriverats exakt så som den står i telegrammet. Stavfel har markerats med elementet
-            sic och bokstäver adderade med blyerts har markerats med elementet add. </p>
+            <normalization>
+               <p> Texten har transkriberats exakt så som den står skriven i brevet. </p>
+            </normalization>
+            <correction>
+               <p>All korrigering är gjord med skrivmaskin. Ickekorrigerade stavfel har markerats med elementet <gi>sic</gi>. 
+                  Adderade tecken har markerats med elementet <gi>add</gi>. När lodstreck (|) lagts till för att indikera att det fattas ett mellanslag 
+                  har värdet av "type" satts till blankSpace.
+                  Ändrade/korrigerade tecken har markerats med <gi>subst</gi> och inom detta element
+                  har <gi>del</gi> använts för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till.</p>
+            </correction>
+            <punctuation>
+               <p>Skiljetecken är återgivna exakt så som de står skrivna i brevet. </p>
+            </punctuation>
             <segmentation>
-               <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets radbrytning</p>
-               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och numrering 1, 2 eller 3</p>
-               <!-- Är denna sidmarkering riktig?? -->
+               <p>Rader har markerats med <gi>lb</gi> för att troget återge brevets
+                  radbrytning</p>
+               
             </segmentation>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="sve">Svenska</language>
-         </langUsage>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName>Virendranâth Chattopaðhyâya</persName>
-               <placeName>Stockholm</placeName>
-               <date when="1919-01-28"/>
-               </correspAction>
-             
-               <correspAction type="received">
-                  <persName>Matilda Widegren</persName>
-                  <placeName>Stockholm</placeName>
-                  <date>1919-01-28</date>
-               </correspAction>
-         </correspDesc>
-         <handNotes>
-            <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
-               <p>De bokstäerver som på två platser skjutis in med blyerts</p>
-            </handNote>
-         </handNotes>
-      </profileDesc>
+      
    </teiHeader>
   
    
@@ -169,18 +197,88 @@
    <text>
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
-           
-       
-         <p>Detta är html-sidan genererad från tei-filen BrevTei.xml Denna text ska inte vara här sedan.
+         
+            
+            <p rend="align(center)">
+               Fröken <name>Matilda Widegren</name><lb/>
+               <address>
+                  <street>Sibyllegatan 59</street><lb/>
+                  <settlement> stockholm</settlement><lb/>
+               </address>
+            </p>
+            <p>  
             <lb/>
+            <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
+               <lb/>ma  att<add type="blankSpace">|</add>     <!--Kalla det något annat än "blankSpace"?-->
+               diskuteras vid det möte på 
+            <placeName type="building">Auditorium</placeName> 
+            i dag, där Ni
+            <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
+            <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
+               <lb/>Ni benäget torda taga<add type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
+            <lb/>vilka i tysthet lida under de brittiska imperialisternas grym-
+            <lb/>ma utsugningspolitik men vilka sakna möjlighet att göra sina
+            <lb/>röster hörda i Europa, bedja vi få uttala vår förhoppning, att
+            <lb/>Ni bland de fakta och argument, som i afton komma att fram-
+               <lb/>läggas inför den svenska <subst>
+                  <del>d</del>
+                  <add>n</add>
+               </subst>a
+               <subst>
+                  <del>n</del>
+                  <add>t</add>
+               </subst>ionen, icke underlåter att fram-
+            <lb/>ställa en klar och otvetydig fordran på att <placeName type="country">Indien</placeName>, <placeName type="country">Irland</placeName>,
+            <lb/><placeName type="country">Egypten</placeName> och <placeName type="country">Sydafrika</placeName>, likaväl som <placeName type="country">Polen</placeName>,
+               <placeName type="country">Finland</placeName> <abbr>o.s.v</abbr>.,må
+            <lb/>fritt och utan utländskt herravälde få bestämma över sitt öde
+            <lb/>och intaga sina platser<del>s</del> såsom fria och självständiga medlem-
+               <lb/>mar i det föreslagna <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>Nationernas förbund</orgName></ref>. Så, som detta för-
+            <lb/>bund nu planeras under de imperialistiska och annexionistiska
+            <lb/>stormakternas välvilliga hägn, utgör de blott en förberedelse
+            <lb/>till ett nytt blodigt krig. Ty vi indier och irländare <abbr>m.fl.</abbr>
+            <lb/>ha icke för avsikt att lämna världen i fred, förrän all den
+            <lb/>orätt, som begåtts genom <placeName type="country">Storbrittaniens</placeName> vidriga, imperialist-
+            <lb/>iska kolonialpolitik, blivit <sic>gottgjörd</sic>. Inom Europa råder en 
+            <lb/>tyst överenskommelse att nedlägga diskussionen angående alla
+            <lb/>frågor, som kunna vara mindre behagliga för <placeName type="region">Englands</placeName> statsmän. 
+            <lb/>Vi hoppas innerligt, att Sveriges kvinnor icke skola taga del
+            <lb/>i denna överenskommelse. Vi kräva öppen diskussion och ögon-
+            <lb/>blicklig rättvisa. <placeName type="continent">Asien</placeName> har ännu icke talat, men om den upp-
+            <lb/>lysta oppinionen inom <placeName type="continent">Europa</placeName> icke är beredd att i godo uppgöra
+            <lb/>dessa tvistefrågor i överensstämmelse med principen om folkens 
+            <lb/>fria självbestämmanderätt, kan <placeName type="continent">Asien</placeName> komma att vidtaga åtgärder
+            <lb/>som kunna bli ännu mycket oangenämare än de fyra år av blodsut-
+            <lb/>gjutelse, vi upplevat <sic>sasom</sic> en följd av de europeiska stormakt-
          </p>
          </div>
          
          <!-- Här startar sida 2 -->
          <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
-         <p>In med text här?
-            <lb/>kanske
-         </p>
+         <p>ernas rövarpolitik.
+            <lb/>      Vi förlita oss på, att varje talare vid mötet skall syssel-
+            <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska
+            <lb/>problemen, vilka ännu vänta på sin lös
+            <subst>
+               <del>i</del>
+               <add>n</add>
+            </subst>
+            <subst>
+               <del>n</del>
+               <add>i</add>
+            </subst>ng, och att dessa uttryck-
+            <lb/>ligen framhållas i den resolutionen, som skall framläggas för
+            <lb/>landet, utan fruktan för <placeName type="region">England</placeName> eller <sic>nagon</sic> annan nation. </p>
+            <lb/>
+            <lb/> 
+            
+               <closer rend="align(center)"> <signed>︎Vi ha äran teckna
+            <lb/>       med utmärkt högaktning
+            <lb/>
+            <lb/>           <name>Virendranâth Chattopaðhyâya</name></signed></closer>
+            
+                        
+         
          </div>
         
       </body>

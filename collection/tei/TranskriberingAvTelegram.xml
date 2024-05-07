@@ -3,14 +3,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xml:lang="sv">
+      <!-- SE https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry -->
       <fileDesc>
          <titleStmt>
             <title>Transkribering av telegram till Widegren</title>
             <author>
                <surname>Kroepelien</surname>
             </author>
-            <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</principal>
+            <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea
+               Palmqvist</principal>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne</name>
                <resp>Transkriberat av</resp>
@@ -20,16 +22,18 @@
                <resp>Transkribering och kodning redigerad och validerad av</resp>
             </respStmt>
          </titleStmt>
-         <extent>Totalt 34 rader telegramremsa avklippt i passande längd och inklistrad
-            justerat vänstermarginal på tre sidor av Kungl. Telegraverkets telegrampapper. 
-            <dimensions unit="cm">
+         <extent>Totalt 34 rader telegramremsa avklippt i passande längd och inklistrad justerat
+            vänstermarginal på tre sidor av Kungl. Telegraverkets telegrampapper. 
+            <dimensions
+               unit="cm">
                <height>XX</height>
                <width>XX</width>
                <!-- Jag hittade inte måtten just nu -->
             </dimensions>
-            </extent>
+         </extent>
          <publicationStmt>
-            <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</authority>
+            <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea
+               Palmqvist</authority>
             <distributor>Högskolan i Borås</distributor>
             <address>
                <name type="insitution">Bibliotekhögskolan</name>
@@ -39,53 +43,67 @@
                <country>Sverige</country>
             </address>
             <availability status="free">
-               <licence>Publicerat med <ref target="https://creativecommons.org/publicdomain/mark/1.0/">
-                  Creative Commons  PDM 1.0 Universal licens</ref></licence>               
+               <licence>Publicerat med <ref
+                     target="https://creativecommons.org/publicdomain/mark/1.0/"> Creative Commons
+                     PDM 1.0 Universal licens</ref></licence>
                <p>Telegrammet är inte publicerat och bedöms ligga utanför copyright</p>
             </availability>
-            <date when="2024-05-22">22 Maj 2024</date>  
+            <date when="2024-05-22">22 maj 2024</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som antagits 
-               av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits fredskonferensen och regeringarna 
-               representerande de 9 Nationernas förbund.  Telegrammet återfinns i 
-               <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref> i KvinnSams arkiv, 
-               Humanistiska biblioteket, Göteborgs universitet.           
-            </p>
+            <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som
+               antagits av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits
+               fredskonferensen och regeringarna representerande de 9 Nationernas förbund.
+               Telegrammet återfinns i <ref
+                  target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346"
+                  >IKFF:s samling</ref> i KvinnSams arkiv, Humanistiska biblioteket, Göteborgs
+               universitet. </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås, Masterprogram i 
-               Biblioteks- och informationsvetenskap, distansutbildning BMBD1 32034, md start HT2023, specifikt 
-               kursen Digitalisering för bevarande och tillgänglighet C3IDB1 B29V4 löpande under VT2024. 
-               Uppgiften består i att i smaverkan med en extrern organisation genomföra ett kritiskt inriktat 
-               digitaliseringsprojekt för att bevara och tillgängliggöra kulturarvsmaterial. Detta projekt 
-               samarbetar med Rachecl Pierce vid Kvinnsam, GöteborgsUniversitet, med att digitalisera material 
-               från deras arkiv innehållande IKFF:s samlingar av dokument och artefakter.</p> 
+            <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås,
+               Masterprogram i Biblioteks- och informationsvetenskap, distansutbildning BMBD1 32034,
+               md start HT2023, specifikt kursen Digitalisering för bevarande och tillgänglighet
+               C3IDB1 B29V4 löpande under VT2024. Uppgiften består i att i smaverkan med en extern
+               organisation genomföra ett kritiskt inriktat digitaliseringsprojekt för att bevara
+               och tillgängliggöra kulturarvsmaterial. Detta projekt samarbetar med Rachel Pierce
+               vid Kvinnsam, Göteborgs Universitet, med att digitalisera material från deras arkiv
+               innehållande IKFF:s samlingar av dokument och artefakter.</p>
          </projectDesc>
          <editorialDecl>
             <normalization>
-               <p>
-                  Texten har transkriverats exakt så som den står i telegrammet. 
-               </p>
+               <p> Texten har transkriberats exakt så som den står i telegrammet. </p>
             </normalization>
             <correction>
-               <p>Stavfel har markerats med elementet <gi>sic</gi>. Bokstäver adderade med blyerts 
+               <p>Stavfel har markerats med elementet <gi>sic</gi>. Bokstäver adderade med blyerts
                   har markerats med elementet <gi>add</gi>. </p>
             </correction>
             <punctuation>
-               <p>Som förväntat i ett telegram förekommer inga slkiljetecken, 
-                  varför de inte heller förekommer i transkriberingen. </p>
+               <p>Som förväntat i ett telegram förekommer inga skiljetecken, varför de inte heller
+                  förekommer i transkriberingen. </p>
             </punctuation>
             <segmentation>
-               <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets radbrytning</p>
-               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och numrering 1, 2 eller 3</p>
+               <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets
+                  radbrytning</p>
+               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och
+                  numrering 1, 2 eller 3</p>
                <!-- Jmf detta med hur det blivit efter Saras facs element, det står inte så nu, så hur ska vi säga att sidorna är markerade? -->
             </segmentation>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
+         <textDesc>
+            <channel mode="w">Telegram</channel>
+            <constitution type="single"/>
+            <derivation type="abridgment"/>
+            <domain type="public"/>
+           <factuality type="fact"/>
+        <interaction active="plural"/>
+            <preparedness type="revised"/>
+            <purpose type="inform"/>
+         </textDesc>
+
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
@@ -93,114 +111,134 @@
             <correspAction type="sent">
                <persName>Kroepelien</persName>
                <placeName>Zürich</placeName>
-               <date when="1919"/>
-               </correspAction>
-               <!-- Om vi lyckas tyda datumet kan vi lägga in det exakta -->
-               <correspAction type="received">
-                  <persName>Matilda Widegren</persName>
-                  <placeName>Stockholm</placeName>
-                  <date>unknown</date>
-               </correspAction>
+               <date when="1919-05-13"/>
+            </correspAction>
+            <correspAction type="received">
+               <forename>Matilda</forename><surname>Widegren</surname>
+               <placeName>Stockholm</placeName>
+               <date>1919-13-05</date>
+            </correspAction>
          </correspDesc>
          <handNotes>
             <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
                <p>De bokstäver som på två platser skjutis in med blyerts</p>
             </handNote>
          </handNotes>
+         <textClass>
+            <keywords scheme="https://id.kb.se/">
+               <list>
+                  <item>
+                     <ref target="
+                        https://id.kb.se/term/kao">KVINNSAM</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">
+                        Versaillesfreden 1919</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Schweiz--Z%C3%BCrich">
+                        Schweiz--Zürich</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/gmgpc/swe/Blanketter">Blanketter</ref>
+                  </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
       </profileDesc>
    </teiHeader>
-  
-   
+
    <!-- Här kommer facsimile-elementet in.-->
-   
-   
-      
-  <facsimile>
+
+
+
+   <facsimile>
       <surface xml:id="TelegramSidaEttAvTreFramsida">
          <figure>
             <label>Telegram sida 1</label>
-            <figDesc>
-               Telegram sida 1.
-            </figDesc>
-            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttAvTreFramsida.jpeg"></graphic>
-           
+            <figDesc> Telegram sida 1. </figDesc>
+            <graphic xml:id="TelegramSidaEttAvTreFramsidaGraphic"
+               url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttAvTreFramsida.jpeg"/>
+
          </figure>
       </surface>
       <surface xml:id="TelegramSidaTvaAvTreFramsida">
          <figure>
             <label>Telegram sida 2</label>
-            <figDesc>
-               Telegram sida 2.
-            </figDesc>
-            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFramsida.jpeg"/>
-         
+            <figDesc> Telegram sida 2. </figDesc>
+            <graphic xml:id="TelegramSidaTvaAvTreFramsidaGraphic"
+               url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreFramsida.jpeg"/>
+
          </figure>
       </surface>
-       <surface xml:id="TelegramSidaTreAvTreFramsida">
+      <surface xml:id="TelegramSidaTreAvTreFramsida">
          <figure>
             <label>Telegram sida 3</label>
-            <figDesc>
-               Telegram sida 3.
-            </figDesc>
-            <graphic xml:id="TelegramSidaTreAvTreFramsidaGraphic" url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreAvTreFramsida.jpeg"/>
-           
+            <figDesc> Telegram sida 3. </figDesc>
+            <graphic xml:id="TelegramSidaTreAvTreFramsidaGraphic"
+               url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreAvTreFramsida.jpeg"/>
+
          </figure>
       </surface>
-   </facsimile>     
-   
-<!-- Och här kommer den tei-taggade texten som kopplas till telegramsida -->   
-   
+   </facsimile>
+
+   <!-- Och här kommer den tei-taggade texten som kopplas till telegramsida -->
+
    <text>
       <body>
-         <div type="page" facs="#TelegramSidaEttAvTreFramsida">
-           <!-- https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX Jag funderar lite över  det som Jakob sa om facsimil. 
-           Men undrar om det blir dubbelt med det som Sar alagt in nu med referens til bilderna så fint. Se https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX
-           Vi kan väl prta om det på fredag. -->
-          <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
-           <p rend="align(center)">= <surname>widegren</surname> <address><street>sibyllegatan 59</street> <settlement> stockholm</settlement></address>  </p>
-            <p rend="left">resolution carried unanimously sent 
-            <lb/>to peace conference and the 9 <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
-            <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress 
-            <lb/>of women expresses its deep regret that the 
-            <lb/>terms of peace prm <add place="inline" hand="OK">o</add> posed at <placeName><ref target="https://sv.wikipedia.org/wiki/Versaillesfreden">versailles</ref></placeName> should
-            <lb/>so seriously violate the principles upon 
-            <lb/>which alone adjust and lastin peace can 
-            <lb/>be secured and which the democracies of the 
-            <lb/>world had come to accept by guaranteeing the </p>
-         </div>
+         <pb type="page" facs="#TelegramSidaEttAvTreFramsida"/>
+         <!-- Nedan följer texten på sida 1 -->
+            <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
+            <p rend="align(center)">= <surname>widegren</surname>
+               <address>
+                  <street>sibyllegatan 59</street>
+                  <settlement> stockholm</settlement>
+               </address>
+            </p>
+            <p rend="left">resolution carried unanimously sent <lb/>to peace conference and the 9
+                  <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
+                     <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress
+               <lb/>of women expresses its deep regret that the <lb/>terms of peace prm <add
+                  place="inline" hand="OK">o</add> posed at <eventName
+                     ref="https://sv.wikipedia.org/wiki/Versaillesfreden">versailles</eventName> 
+               should <lb/>so seriously violate the principles upon
+               <lb/>which alone adjust and lastin peace can <lb/>be secured and which the
+               democracies of the <lb/>world had come to accept by guaranteeing the </p>
+
+         <pb type="page" facs="#TelegramSidaTvaAvTreFramsida"/>
+         <!-- Nedan följer texten på sida 2 -->
+            <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
+               tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
+               recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all
+               over europe discords an <sic>animoities</sic> which <lb/>can lead only to future wars
+               by the demand <lb/>for the disarmament of one set of belligeran ts <lb/>only the
+               principle of justice is violated <lb/>and the rule of force is continued by the
+               <lb/>financial and economic proposals a hundred <lb/>million people of this
+                  <sic>genesation</sic> in the <lb/>heart of europe are condemned to poverty
+               <lb/>disease and <sic>despais</sic> which must result in the <lb/>spread of hatred
+               and anarchy within each </p>
+
          
-         <!-- Här startar sida 2 -->
-         <div type="page" facs="#TelegramSidaTvaAvTreFramsida">
-            <p rend="left">fruits of the secret treaties to the
-            <lb/>conquerors the terms of peace tacitly
-            <lb/>sanction secret diplomacy deny the principle
-            <lb/>of self determination recognise the right m f
-            <lb/>the victors to the spoils of war and create
-            <lb/>all over europe discords an <sic>animoities</sic> which
-            <lb/>can lead only to future wars by the demand
-            <lb/>for the disarmament of one set of belligeran ts
-            <lb/>only the principle of justice is violated 
-            <lb/>and the rule of force is continued by the
-            <lb/>financial and economic proposals a hundred
-            <lb/>million people of this <sic>genesation</sic> in the
-            <lb/>heart of europe are condemned to poverty
-            <lb/>disease and <sic>despais</sic> which must result in the
-            <lb/>spread of hatred and anarchy within each
-         </p>
-         </div>
-         <!-- Här startar sid 3 -->
-         <div type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left">
-            <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add> isibility
-            <lb/>this congress strongly urges the allied
-            <lb/>governments to accept such amendments of
-            <lb/>the terms as may be proposed to bring the
-               <lb/>peace into harmony with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen">principles</ref>
-               <lb/>first enumerated by <ref target="https://sv.wikipedia.org/wiki/Woodrow_Wilson"><roleName type="office">president</roleName><surname> wilson</surname></ref> upon
-            <lb/>the faithful carrying out of which the
-            <lb/>honour of the allied peoples depends =
-            <lb/><persName rend="right"> kroepelien</persName>  *
-         </p>
-            </div>
+         <pb type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left"/>
+         <!-- Nedan följer texten på sida 3 -->
+            <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
+               isibility <lb/>this congress strongly urges the allied <lb/>governments to accept
+               such amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into
+               harmony with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen"
+                  >principles</ref>
+               <lb/>first enumerated by <ref target="https://sv.wikipedia.org/wiki/Woodrow_Wilson"
+                     ><roleName type="office">president</roleName><surname> wilson</surname></ref>
+               upon <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples
+               depends = <lb/><persName rend="right"> kroepelien</persName> * </p>
       </body>
    </text>
 </TEI>
