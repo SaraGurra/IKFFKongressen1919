@@ -10,25 +10,21 @@
             <author>
                <persName>Virendranâth Chattopaðhyâya</persName>
             </author>
-            <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</principal>
+            <principal>Sara Gustavsson, Ulrika Widh Eriksson, Emma Missne, Linnea Palmqvist</principal>
             <respStmt>
-               <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne</name>
+               <name>Sara Gustavsson, Ulrika Widh Eriksson, Linnéa Palmqvist, Emma Missne, </name>
                <resp>Transkriberad av</resp>
             </respStmt>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</name>
-               <resp>Transcirpion and encoding edited and reviewed by</resp>
+               <resp>Transkribering och kodning redigerad och validerad av</resp>
             </respStmt>
          </titleStmt>
          <extent>2 sidor maskinskriven text, totalt 37 rader text</extent>
          <publicationStmt>
             <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</authority>
             <distributor>Högskolan i Borås</distributor>
-            <!-- Så här står det i TEI-guidleines: The publisher is the person or institution by whose authority
-               a given edition of the file is made public. The distributor is the person or institution from 
-               whom copies of the text may be obtained. Where a text is not considered formally published, but 
-               is nevertheless made available for circulation by some individual or organization, this person 
-               or institution is termed the release authority. Vilken är rätt att använda för oss?-->
+           
             <address>
                <name type="insitution">Bibliotekhögskolan</name>
                <street>Allégatan 1</street>
@@ -37,9 +33,10 @@
                <country>Sverige</country>
             </address>
             <availability status="free">
-               <licence>Published under a <ref target="https://creativecommons.org/publicdomain/mark/1.0/">
-                  Creative Commons  XXXXX License</ref></licence>               
-               <p>Brevet är inte publicerat och bedöms ligga utanför copyright</p>
+               <licence>Publicerat med <ref
+                  target="https://creativecommons.org/publicdomain/mark/1.0/"> Creative Commons
+                  PDM 1.0 Universal licens</ref></licence>
+               <p>Brevet är från 1919 och bedöms därför ligga utanför copyright</p> <!--Formulering?-->
             </availability>
             <date when="2024-05-22">22 maj 2024</date>  
          </publicationStmt>
@@ -50,9 +47,7 @@
                självständiga medlemmar i Nationernas Förbund. Brevet återfinns i <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref>
                i KvinnSams arkiv, 
                Humanistiska biblioteket, Göteborgs universitet.           
-        KvinnSam, B 36, 
-               
-               kartong 1915-1921 IKFF Accession 1986-05-06.
+               KvinnSam, B 36, kartong 1915-1921 IKFF Accession 1986-05-06.
                Länk: https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346</p>
             <!--  Har vi bestämt att låda inte ska med? -->
          </sourceDesc>
@@ -101,7 +96,7 @@
                      <ref target="https://id.kb.se/term/sao/Brev">Brev</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/kao">KVINNSAM</ref>
+                     <ref target="https://id.kb.se/term/sao">KVINNSAM</ref>
                   </item>
                   <item>
                      <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
@@ -209,24 +204,24 @@
             <p>  
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-               <lb/>ma  att<add type="blankSpace">|</add>     <!--Kalla det något annat än "blankSpace"?-->
+               <lb/>ma  att<add place="inline" type="blankSpace">|</add>     <!--Kalla det något annat än "blankSpace"?-->
                diskuteras vid det möte på 
             <placeName type="building">Auditorium</placeName> 
             i dag, där Ni
             <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
             <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
-               <lb/>Ni benäget torda taga<add type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
+               <lb/>Ni benäget torda taga<add place="inline" type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
             <lb/>vilka i tysthet lida under de brittiska imperialisternas grym-
             <lb/>ma utsugningspolitik men vilka sakna möjlighet att göra sina
             <lb/>röster hörda i Europa, bedja vi få uttala vår förhoppning, att
             <lb/>Ni bland de fakta och argument, som i afton komma att fram-
                <lb/>läggas inför den svenska <subst>
                   <del>d</del>
-                  <add>n</add>
+                  <add place="inline">n</add>
                </subst>a
                <subst>
                   <del>n</del>
-                  <add>t</add>
+                  <add place="inline">t</add>
                </subst>ionen, icke underlåter att fram-
             <lb/>ställa en klar och otvetydig fordran på att <placeName type="country">Indien</placeName>, <placeName type="country">Irland</placeName>,
             <lb/><placeName type="country">Egypten</placeName> och <placeName type="country">Sydafrika</placeName>, likaväl som <placeName type="country">Polen</placeName>,
@@ -261,11 +256,11 @@
             <lb/>problemen, vilka ännu vänta på sin lös
             <subst>
                <del>i</del>
-               <add>n</add>
+               <add place="inline">n</add>
             </subst>
             <subst>
                <del>n</del>
-               <add>i</add>
+               <add place="inline">i</add>
             </subst>ng, och att dessa uttryck-
             <lb/>ligen framhållas i den resolutionen, som skall framläggas för
             <lb/>landet, utan fruktan för <placeName type="region">England</placeName> eller <sic>nagon</sic> annan nation. </p>
