@@ -10,14 +10,14 @@
             <author>
                <persName>Virendranâth Chattopaðhyâya</persName>
             </author>
-            <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</principal>
+            <principal>Sara Gustavsson, Ulrika Widh Eriksson, Emma Missne, Linnea Palmqvist</principal>
             <respStmt>
-               <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne</name>
+               <name>Sara Gustavsson, Ulrika Widh Eriksson, Linnéa Palmqvist, Emma Missne, </name>
                <resp>Transkriberad av</resp>
             </respStmt>
             <respStmt>
                <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</name>
-               <resp>Transcirpion and encoding edited and reviewed by</resp>
+               <resp>Transkribering och kodning redigerad och validerad av</resp>
             </respStmt>
          </titleStmt>
          <extent>2 sidor maskinskriven text, totalt 37 rader text</extent>
@@ -37,9 +37,10 @@
                <country>Sverige</country>
             </address>
             <availability status="free">
-               <licence>Published under a <ref target="https://creativecommons.org/publicdomain/mark/1.0/">
-                  Creative Commons  XXXXX License</ref></licence>               
-               <p>Brevet är inte publicerat och bedöms ligga utanför copyright</p>
+               <licence>Publicerat med <ref
+                  target="https://creativecommons.org/publicdomain/mark/1.0/"> Creative Commons
+                  PDM 1.0 Universal licens</ref></licence>
+               <p>Brevet är från 1919 och bedöms därför ligga utanför copyright</p> <!--Formulering?-->
             </availability>
             <date when="2024-05-22">22 maj 2024</date>  
          </publicationStmt>
@@ -101,7 +102,7 @@
                      <ref target="https://id.kb.se/term/sao/Brev">Brev</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/kao">KVINNSAM</ref>
+                     <ref target="https://id.kb.se/term/sao">KVINNSAM</ref>
                   </item>
                   <item>
                      <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
