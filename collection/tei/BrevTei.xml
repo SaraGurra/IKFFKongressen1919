@@ -36,7 +36,7 @@
                <licence>Publicerat med <ref
                   target="https://creativecommons.org/publicdomain/mark/1.0/"> Creative Commons
                   PDM 1.0 Universal licens</ref></licence>
-               <p>Brevet är från 1919 och bedöms därför ligga utanför copyright</p> <!--Formulering?-->
+               <p>Brevet är finte tidigare publicerat och bedöms därför ligga utanför copyright</p> 
             </availability>
             <date when="2024-05-22">22 maj 2024</date>  
          </publicationStmt>
@@ -100,14 +100,8 @@
                   <item>
                      <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
                   </item>
-                  <item>
-                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">
-                        Versaillesfreden 1919</ref>
-                  </item>
-                  <item>
-                     <ref target="https://id.kb.se/term/sao/Schweiz--Z%C3%BCrich">
-                        Schweiz--Zürich</ref>
-                  </item>
+                  
+                 
                   <item>
                      <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
                   </item>
@@ -173,6 +167,19 @@
            
          </figure>
       </surface>
+     
+   
+        <surface xml:id="BrevSidaEttAvTvaBaksida">
+           <figure>
+              <label>Brev sida 1</label>
+              <figDesc>
+                 Brev sida 1.
+              </figDesc>
+              <graphic xml:id="BrevSidaEttAvTvaBaksidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaBaksida.jpeg"/>
+              
+           </figure>
+        </surface>
+     
       <surface xml:id="BrevSidaTvaAvTvaFramsida">
          <figure>
             <label>Brev sida 2</label>
@@ -183,6 +190,17 @@
          
          </figure>
       </surface>
+     
+     <surface xml:id="BrevSidaTvaAvTvaBaksida">
+        <figure>
+           <label>Brev sida 1</label>
+           <figDesc>
+              Brev sida 1.
+           </figDesc>
+           <graphic xml:id="BrevSidaTvaAvTvaBaksidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaBaksida.jpeg"/>
+           
+        </figure>
+     </surface>
       
    </facsimile>     
    
@@ -247,6 +265,14 @@
          </p>
          </div>
          
+         <!-- Baksidan av första sidan kommer här -->
+         
+         <div type="page" facs="#BrevSidaEttAvTvaBaksida">
+            <p>
+               Och här ska baksidestexten in. 
+            </p>
+            </div>
+         
          <!-- Här startar sida 2 -->
          <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
          <p>ernas rövarpolitik.
@@ -274,7 +300,14 @@
                         
          
          </div>
-        
+         
+         <!-- Här kommer baksidan av sida två -->
+         
+         <div type="page" facs="#BrevSidaTvaAvTvaBaksida">
+            <p>
+               Och här ska baksidestexten in. 
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
