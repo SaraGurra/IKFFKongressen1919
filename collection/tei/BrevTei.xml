@@ -47,9 +47,8 @@
                självständiga medlemmar i Nationernas Förbund. Brevet återfinns i <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref>
                i KvinnSams arkiv, 
                Humanistiska biblioteket, Göteborgs universitet.           
-               KvinnSam, B 36, kartong 1915-1921 IKFF Accession 1986-05-06.
-               Länk: https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346</p>
-            <!--  Har vi bestämt att låda inte ska med? -->
+              </p>
+            
          </sourceDesc>
       </fileDesc>
      
@@ -86,7 +85,7 @@
             till
             <persName ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren">Matilda Widegren</persName>
             den
-            <date when="1911-06-27">27 juni 1911</date>
+            <date when="1919-01-28">28 januari 1919</date>
          </creation>
          
          <textClass>
@@ -116,9 +115,9 @@
                      <ref target="https://id.kb.se/term/sao/Imperialism">Imperialism</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
+                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>  
                   </item>
-               </list>
+               </list>                                                                              <!--Nationernas Förbund har ingen post i sao, länka till annan sida?-->
             </keywords>
          </textClass>
         
@@ -204,8 +203,8 @@
             <p>  
             <lb/>
             <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-               <lb/>ma  att<add place="inline" type="blankSpace">|</add>     <!--Kalla det något annat än "blankSpace"?-->
-               diskuteras vid det möte på 
+               <lb/>ma  att<add place="inspace" type="blankSpace">|</add>diskuteras     <!--Kalla det något annat än "blankSpace"?--><!--Kan inte se att "inline"/"inspace gör någon skillnad-->
+            vid det möte på 
             <placeName type="building">Auditorium</placeName> 
             i dag, där Ni
             <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
@@ -228,7 +227,7 @@
                <placeName type="country">Finland</placeName> <abbr>o.s.v</abbr>.,må
             <lb/>fritt och utan utländskt herravälde få bestämma över sitt öde
             <lb/>och intaga sina platser<del>s</del> såsom fria och självständiga medlem-
-               <lb/>mar i det föreslagna <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>Nationernas förbund</orgName></ref>. Så, som detta för-
+               <lb/>mar i det föreslagna <orgName>Nationernas förbund</orgName>. Så, som detta för-
             <lb/>bund nu planeras under de imperialistiska och annexionistiska
             <lb/>stormakternas välvilliga hägn, utgör de blott en förberedelse
             <lb/>till ett nytt blodigt krig. Ty vi indier och irländare <abbr>m.fl.</abbr>
