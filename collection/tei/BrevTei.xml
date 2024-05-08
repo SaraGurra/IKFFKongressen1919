@@ -171,9 +171,9 @@
    
         <surface xml:id="BrevSidaEttAvTvaBaksida">
            <figure>
-              <label>Brev sida 1</label>
+              <label>Brev baksida</label>
               <figDesc>
-                 Brev sida 1.
+                 Brev baksida.
               </figDesc>
               <graphic xml:id="BrevSidaEttAvTvaBaksidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaBaksida.jpeg"/>
               
@@ -193,9 +193,9 @@
      
      <surface xml:id="BrevSidaTvaAvTvaBaksida">
         <figure>
-           <label>Brev sida 1</label>
+           <label>Brev  baksida</label>
            <figDesc>
-              Brev sida 1.
+              Brev baksida.
            </figDesc>
            <graphic xml:id="BrevSidaTvaAvTvaBaksidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaBaksida.jpeg"/>
            

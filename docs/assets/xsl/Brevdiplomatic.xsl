@@ -45,10 +45,16 @@
                             <div class="col-sm">
                                 <h3>Brev till Matilda Widegren</h3>
                             </div>
-                            <div class="col-sm">
-                            </div>
+                           
                             
                         </div>
+                        
+                        <div class="col-sm"><!-- Ändra typsnitt så det skiljer sig från brevtext? -->
+                            Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
+                            Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
+                            och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
+                            självständiga medlemmar i Nationernas Förbund
+                        </div> 
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
