@@ -108,15 +108,13 @@ footer {
   width: 33.33%;
 }
 
-<<<<<<< Updated upstream
-=======
+
  /* Create three equal columns that float next to each other */
 .column {
   float: left;
   width: 33.33%;
 }
 
->>>>>>> Stashed changes
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -129,8 +127,4 @@ footer {
   .column {
     width: 100%;
   }
-<<<<<<< Updated upstream
 } 
-=======
-} 
->>>>>>> Stashed changes
