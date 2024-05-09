@@ -43,7 +43,7 @@
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Brev till Matilda Widegren</h3>
+                                
                             </div>
                            
                             
