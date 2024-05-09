@@ -59,7 +59,10 @@ footer {
     padding: 1vw;
 }
 
-
+.quote {
+    width: 50%;
+    margin: auto;
+}
 #collection {
     display: flex;
 }
