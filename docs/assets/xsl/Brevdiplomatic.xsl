@@ -43,17 +43,17 @@
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Brev till Matilda Widegren</h3>
+                                
                             </div>
                            
                             
                         </div>
                         
-                        <div class="col-sm"><!-- Ändra typsnitt så det skiljer sig från brevtext? -->
-                            Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
+                        <div class="intro"><!-- Ändra typsnitt så det skiljer sig från brevtext? Från början class="col-sm" -->
+                            <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
                             Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
                             och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
-                            självständiga medlemmar i Nationernas Förbund
+                            självständiga medlemmar i Nationernas Förbund</p>
                         </div> 
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
