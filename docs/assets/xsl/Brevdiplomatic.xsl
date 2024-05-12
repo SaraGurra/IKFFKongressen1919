@@ -37,24 +37,19 @@
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="om.html">Om</a> |
                 </nav>
-                <main id="manuscript">
+                <main id="bakgrund"> <!--Här stod tidigare "manuscript"-->
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <div class="container">
+                    <div class="intro"><!--La in .intro i main.css men verkar inte ändra något-->
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        <div class="row">
-                            <div class="col-sm">
-                                
-                            </div>
-                           
-                            
-                        </div>
+                       
                         
-                        <div class="intro"><!-- Ändra typsnitt så det skiljer sig från brevtext? Från början class="col-sm" -->
+                        <!-- Ändra typsnitt så det skiljer sig från brevtext? Från början class="col-sm" -->
                             <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
                             Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
                             och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
                             självständiga medlemmar i Nationernas Förbund</p>
-                        </div> 
+                        </div>
+                    <div class="container">
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
