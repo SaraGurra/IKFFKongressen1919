@@ -23,8 +23,7 @@
             </respStmt>
          </titleStmt>
          <extent>Totalt 34 rader telegramremsa avklippt i passande längd och inklistrad justerat
-            vänstermarginal på tre sidor av Kungl. Telegraverkets telegrampapper. 
-            <dimensions
+            vänstermarginal på tre sidor av Kungl. Telegraverkets telegrampapper. <dimensions
                unit="cm">
                <height>XX</height>
                <width>XX</width>
@@ -76,8 +75,8 @@
                <p> Texten har transkriberats exakt så som den står i telegrammet. </p>
             </normalization>
             <correction>
-               <p>Stavfel har markerats med elementet <gi>sic</gi>. Bokstäver adderade med blyerts
-                  har markerats med elementet <gi>add</gi>. </p>
+               <p>Stavfel har markerats med elementet <gi>sic</gi>. Bokstäver adderade i efterhand
+                  med blyerts har markerats med elementet <gi>add</gi>. </p>
             </correction>
             <punctuation>
                <p>Som förväntat i ett telegram förekommer inga skiljetecken, varför de inte heller
@@ -86,9 +85,8 @@
             <segmentation>
                <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets
                   radbrytning</p>
-               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> och
-                  numrering 1, 2 eller 3</p>
-               <!-- Jmf detta med hur det blivit efter Saras facs element, det står inte så nu, så hur ska vi säga att sidorna är markerade? -->
+               <p>Sidor har markerats med <gi>pb</gi> som fått attributet <att>page</att> samt
+                  attributet <att>facs</att> följt av filnamnet som innehåller bilden på texten</p>
             </segmentation>
          </editorialDecl>
       </encodingDesc>
@@ -98,8 +96,8 @@
             <constitution type="single"/>
             <derivation type="abridgment"/>
             <domain type="public"/>
-           <factuality type="fact"/>
-        <interaction active="plural"/>
+            <factuality type="fact"/>
+            <interaction active="plural"/>
             <preparedness type="revised"/>
             <purpose type="inform"/>
          </textDesc>
@@ -107,23 +105,27 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
+
          <correspDesc>
             <correspAction type="sent">
-               <persName>Kroepelien</persName>
+               <surname>Kroepelien</surname>
                <placeName>Zürich</placeName>
-               <date when="1919-05-13"/>
+               <date when="1919-05-13">13 maj 1919</date>
             </correspAction>
             <correspAction type="received">
-               <forename>Matilda</forename><surname>Widegren</surname>
+               <forename>Matilda</forename>
+               <surname>Widegren</surname>
                <placeName>Stockholm</placeName>
-               <date>1919-13-05</date>
+               <date when="1919-05-13">13 maj 1919</date>
             </correspAction>
          </correspDesc>
+
          <handNotes>
             <handNote xml:id="OK" scribe="Okänd" script="handwritten" medium="pencil" scope="minor">
                <p>De bokstäver som på två platser skjutis in med blyerts</p>
             </handNote>
          </handNotes>
+
          <textClass>
             <keywords scheme="https://id.kb.se/">
                <list>
@@ -158,8 +160,6 @@
    </teiHeader>
 
    <!-- Här kommer facsimile-elementet in.-->
-
-
 
    <facsimile>
       <surface xml:id="TelegramSidaEttAvTreFramsida">
@@ -197,48 +197,46 @@
       <body>
          <pb type="page" facs="#TelegramSidaEttAvTreFramsida"/>
          <!-- Nedan följer texten på sida 1 -->
-            <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
-            <p rend="align(center)">= <surname>widegren</surname>
-               <address>
-                  <street>sibyllegatan 59</street>
-                  <settlement> stockholm</settlement>
-               </address>
-            </p>
-            <p rend="left">resolution carried unanimously sent <lb/>to peace conference and the 9
-                  <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
-                     <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress
-               <lb/>of women expresses its deep regret that the <lb/>terms of peace prm <add
-                  place="inline" hand="OK">o</add> posed at <eventName
-                     ref="https://sv.wikipedia.org/wiki/Versaillesfreden">versailles</eventName> 
-               should <lb/>so seriously violate the principles upon
-               <lb/>which alone adjust and lastin peace can <lb/>be secured and which the
-               democracies of the <lb/>world had come to accept by guaranteeing the </p>
+         <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
+         <p rend="align(center)">= <surname>widegren</surname>
+            <address>
+               <street>sibyllegatan 59</street>
+               <settlement> stockholm</settlement>
+            </address>
+         </p>
+         <p rend="left">resolution carried unanimously sent <lb/>to peace conference and the 9 <ref
+               target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
+                  <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress
+            <lb/>of women expresses its deep regret that the <lb/>terms of peace prm <add
+               place="inline" hand="OK">o</add> posed at <eventName
+               ref="https://sv.wikipedia.org/wiki/Versaillesfreden">versailles</eventName> should
+            <lb/>so seriously violate the principles upon <lb/>which alone adjust and lastin peace
+            can <lb/>be secured and which the democracies of the <lb/>world had come to accept by
+            guaranteeing the </p>
 
          <pb type="page" facs="#TelegramSidaTvaAvTreFramsida"/>
          <!-- Nedan följer texten på sida 2 -->
-            <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
-               tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
-               recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all
-               over europe discords an <sic>animoities</sic> which <lb/>can lead only to future wars
-               by the demand <lb/>for the disarmament of one set of belligeran ts <lb/>only the
-               principle of justice is violated <lb/>and the rule of force is continued by the
-               <lb/>financial and economic proposals a hundred <lb/>million people of this
-                  <sic>genesation</sic> in the <lb/>heart of europe are condemned to poverty
-               <lb/>disease and <sic>despais</sic> which must result in the <lb/>spread of hatred
-               and anarchy within each </p>
+         <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
+            tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
+            recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all over
+            europe discords an <sic>animoities</sic> which <lb/>can lead only to future wars by the
+            demand <lb/>for the disarmament of one set of belligeran ts <lb/>only the principle of
+            justice is violated <lb/>and the rule of force is continued by the <lb/>financial and
+            economic proposals a hundred <lb/>million people of this <sic>genesation</sic> in the
+            <lb/>heart of europe are condemned to poverty <lb/>disease and <sic>despais</sic> which
+            must result in the <lb/>spread of hatred and anarchy within each </p>
 
-         
+
          <pb type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left"/>
          <!-- Nedan följer texten på sida 3 -->
-            <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
-               isibility <lb/>this congress strongly urges the allied <lb/>governments to accept
-               such amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into
-               harmony with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen"
-                  >principles</ref>
-               <lb/>first enumerated by <ref target="https://sv.wikipedia.org/wiki/Woodrow_Wilson"
-                     ><roleName type="office">president</roleName><surname> wilson</surname></ref>
-               upon <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples
-               depends = <lb/><persName rend="right"> kroepelien</persName> * </p>
+         <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
+            isibility <lb/>this congress strongly urges the allied <lb/>governments to accept such
+            amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into harmony
+            with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen">principles</ref>
+            <lb/>first enumerated by <ref target="https://sv.wikipedia.org/wiki/Woodrow_Wilson"
+                  ><roleName type="office">president</roleName><surname> wilson</surname></ref> upon
+            <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples depends =
+               <lb/><surname rend="right"> kroepelien</surname> * </p>
       </body>
    </text>
 </TEI>
