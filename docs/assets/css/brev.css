@@ -59,7 +59,17 @@ footer {
     padding: 1vw;
 }
 
+<!--Lägger till intro för att få en inledning på brevsidan-->
 
+.intro {
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
+    margin: 2% 25% 2% 25%;
+    font-size: large;
+    
+}
 
 .quote {
     width: 50%;
