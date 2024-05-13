@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Elektronisk transkribering av telegram till Widegren
+                    Telegram till Widegren
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -43,12 +43,12 @@
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Telegram</h3>
+                            
                             </div>
                             <div class="col-sm">
                             </div>
                             <div class="col-sm">
-                                <h3>Transkribering</h3>
+                              
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->

@@ -46,7 +46,7 @@
                         
                         
                             <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
-                            Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
+                            Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra Indiens, 
                             och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
                             självständiga medlemmar i Nationernas Förbund</p>
                         </div>
