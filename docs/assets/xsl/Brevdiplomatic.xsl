@@ -22,6 +22,7 @@
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
+                <link rel="stylesheet" href="assets/css/brev.css"/>
             </head>
             <body>
                 <header>
@@ -37,13 +38,13 @@
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="om.html">Om</a> |
                 </nav>
-                <main id="bakgrund"> <!--Här stod tidigare "manuscript"-->
+                <main id="bakgrund"> 
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <div class="intro"><!--La in .intro i main.css men verkar inte ändra något-->
+                    <div class="intro"><!--La in .intro i brev.css men verkar inte ändra något-->
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                        
                         
-                        <!-- Ändra typsnitt så det skiljer sig från brevtext? Från början class="col-sm" -->
+                        
                             <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
                             Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
                             och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som

@@ -153,6 +153,9 @@
                   <item>
                      <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
                   </item>
+                  <item>
+                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">Versaillesfreden 1919</ref>
+                  </item>
                </list>
             </keywords>
          </textClass>
@@ -208,8 +211,11 @@
                target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
                   <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress
             <lb/>of women expresses its deep regret that the <lb/>terms of peace prm <add
-               place="inline" hand="OK">o</add> posed at <eventName
-               ref="https://sv.wikipedia.org/wiki/Versaillesfreden">versailles</eventName> should
+               place="inline" hand="OK">o</add> posed at 
+            <placeName type="Event">
+               versailles
+            </placeName>
+            should
             <lb/>so seriously violate the principles upon <lb/>which alone adjust and lastin peace
             can <lb/>be secured and which the democracies of the <lb/>world had come to accept by
             guaranteeing the </p>
