@@ -8,11 +8,15 @@
          <titleStmt>
             <title>Brev till Matilda Widegren</title>
             <author>
-               <persName>Virendranâth Chattopaðhyâya</persName>
+               <persName>
+                  <forename>Virendranâth</forename>
+                  <surname>Chattopaðhyâya</surname>
+               </persName>
             </author>
-            <principal>Sara Gustavsson, Ulrika Widh Eriksson, Emma Missne, Linnea Palmqvist</principal>
+            <principal>Sara Gustavsson, Ulrika Widh Eriksson, Emma Missne, Linnea
+               Palmqvist</principal>
             <respStmt>
-               <name>Sara Gustavsson, Ulrika Widh Eriksson, Linnéa Palmqvist, Emma Missne, </name>
+               <name>Sara Gustavsson</name>
                <resp>Transkriberad av</resp>
             </respStmt>
             <respStmt>
@@ -20,11 +24,14 @@
                <resp>Transkribering och kodning redigerad och validerad av</resp>
             </respStmt>
          </titleStmt>
-         <extent>2 sidor maskinskriven text, totalt 37 rader text</extent>
+         <extent>2 sidor maskinskriven text, totalt 37 rader text <dimensions unit="cm">
+               <height>35,7</height>
+               <width>22</width>
+            </dimensions></extent>
          <publicationStmt>
-            <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</authority>
+            <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea
+               Palmqvist</authority>
             <distributor>Högskolan i Borås</distributor>
-           
             <address>
                <name type="insitution">Bibliotekhögskolan</name>
                <street>Allégatan 1</street>
@@ -34,60 +41,94 @@
             </address>
             <availability status="free">
                <licence>Publicerat med <ref
-                  target="https://creativecommons.org/publicdomain/mark/1.0/"> Creative Commons
-                  PDM 1.0 Universal licens</ref></licence>
-               <p>Brevet är finte tidigare publicerat och bedöms därför ligga utanför copyright</p> 
+                     target="https://creativecommons.org/publicdomain/mark/1.0/"> Creative Commons
+                     PDM 1.0 Universal licens</ref></licence>
+               <p>Brevet är inte publicerat och bedöms ligga utanför copyright</p>
             </availability>
-            <date when="2024-05-22">22 maj 2024</date>  
+            <date when="2024-05-22">22 maj 2024</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
-               Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra indiens, 
-               och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
-               självständiga medlemmar i Nationernas Förbund. Brevet återfinns i <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346">IKFF:s samling</ref>
-               i KvinnSams arkiv, 
-               Humanistiska biblioteket, Göteborgs universitet.           
-              </p>
-            
-         </sourceDesc>
+            <p>Brev till <persName
+               ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren">Matilda
+               Widegren</persName> från <persName
+                  ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya">Virendranâth
+                  Chattopaðhyâya</persName>, Indiska
+               Nationalkommitén, den <date when="1919-01-28">28 januari 1919</date> med anledning av att Widegren ska hålla ett tal på ett möte inför
+               bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra
+               Indiens och andra brittiska koloniers talan och argumentera för att dessa nationer
+               ska få ingå som självständiga medlemmar i Nationernas Förbund. Brevet återfinns i
+                  <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346"
+                  >IKFF:s samling</ref> i KvinnSams arkiv, Humanistiska biblioteket, Göteborgs
+               universitet. </p>
+           </sourceDesc>
       </fileDesc>
-     
+      
+       <encodingDesc>
+         <projectDesc>
+            <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås,
+               Masterprogram i Biblioteks- och informationsvetenskap, distansutbildning BMBD1 32034,
+               md start HT2023, specifikt kursen Digitalisering för bevarande och tillgänglighet
+               C3IDB1 B29V4 löpande under VT2024. Uppgiften består i att i smaverkan med en extrern
+               organisation genomföra ett kritiskt inriktat digitaliseringsprojekt för att bevara
+               och tillgängliggöra kulturarvsmaterial. Detta projekt samarbetar med Rachel Pierce
+               vid Kvinnsam, Göteborgs universitet, med att digitalisera material från deras arkiv
+               innehållande IKFF:s samlingar av dokument och artefakter.</p>
+         </projectDesc>
+         <editorialDecl>
+            <normalization>
+               <p> Texten har transkriberats exakt så som den står skriven i brevet. </p>
+            </normalization>
+            <correction>
+               <p>All korrigering är gjord med skrivmaskin. Ickekorrigerade stavfel har markerats
+                  med elementet <gi>sic</gi>. Adderade tecken har markerats med elementet
+                  <gi>add</gi>. När lodstreck (|) lagts till för att indikera att det fattas ett
+                  mellanslag har värdet av "type" satts till blankSpace. Ändrade/korrigerade tecken
+                  har markerats med <gi>subst</gi> och inom detta element har <gi>del</gi> använts
+                  för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till.</p>
+            </correction>
+            <punctuation>
+               <p>Skiljetecken är återgivna exakt så som de står skrivna i brevet. </p>
+            </punctuation>
+            <segmentation>
+               <p>Rader har markerats med <gi>lb</gi> för att troget återge brevets radbrytning och </p>
+               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> samt
+                  attributet <att>facs</att> följt av filnamnet som innehåller bilden på texten. Ny
+                  sida i telegrammet är också markerat med <gi>pb</gi></p>
+               </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+
       <profileDesc>
          <textDesc>
-            <channel/>
-            <constitution/>
-            <derivation/>
-            <domain/>
-            <factuality/>
-            <interaction/>
-            <preparedness/>
+            <channel mode="w">Brev></channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="private"/>
+            <factuality type="fact"/>
+            <interaction active="singular" passive="single"/>
+            <preparedness type="revised"/>
             <purpose type="pursuade"/>
          </textDesc>
+         
          <langUsage>
-            <language ident="se">Svenska</language>
+            <language ident="sv">Svenska</language>
          </langUsage>
+         
          <correspDesc>
             <correspAction type="sent">
-               <persName>Virendranâth Chattopaðhyâya</persName>
+               <persName>
+                  <forename>Virendranâth</forename> <surname>Chattopaðhyâya</surname></persName>
                <placeName>Stockholm</placeName>
-               <date when="1919-01-28"/>
+               <date when="1919-01-28">28 januari 1928</date>
             </correspAction>
-            
+
             <correspAction type="received">
-               <persName>Matilda Widegren</persName>
+               <persName><forename>Matilda</forename><surname>Widegren</surname></persName>
                <placeName>Stockholm</placeName>
                <date>okänt</date>
             </correspAction>
          </correspDesc>
-         <creation>
-            Brev från
-            <persName ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya">Virendranâth Chattopaðhyâya</persName>
-            till
-            <persName ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren">Matilda Widegren</persName>
-            den
-            <date when="1919-01-28">28 januari 1919</date>
-         </creation>
-         
+       
          <textClass>
             <keywords scheme="https://id.kb.se/">
                <list>
@@ -100,8 +141,7 @@
                   <item>
                      <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
                   </item>
-                  
-                 
+
                   <item>
                      <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
                   </item>
@@ -109,204 +149,163 @@
                      <ref target="https://id.kb.se/term/sao/Imperialism">Imperialism</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>  
+                     <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
                   </item>
-               </list>                                                                              <!--Nationernas Förbund har ingen post i sao, länka till annan sida?-->
+               </list>
             </keywords>
          </textClass>
-        
+
       </profileDesc>
-     
-      <encodingDesc>
-         <projectDesc>
-            <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås, Masterprogram i 
-               Biblioteks- och informationsvetenskap, distansutbildning BMBD1 32034, md start HT2023, specifikt 
-               kursen Digitalisering för bevarande och tillgänglighet C3IDB1 B29V4 löpande under VT2024. 
-               Uppgiften består i att i smaverkan med en extrern organisation genomföra ett kritiskt inriktat 
-               digitaliseringsprojekt för att bevara och tillgängliggöra kulturarvsmaterial. Detta projekt 
-               samarbetar med Rachecl Pierce vid Kvinnsam, Göteborgs universitet, med att digitalisera material 
-               från deras arkiv innehållande IKFF:s samlingar av dokument och artefakter.</p> 
-         </projectDesc>
-         <editorialDecl>
-            <normalization>
-               <p> Texten har transkriberats exakt så som den står skriven i brevet. </p>
-            </normalization>
-            <correction>
-               <p>All korrigering är gjord med skrivmaskin. Ickekorrigerade stavfel har markerats med elementet <gi>sic</gi>. 
-                  Adderade tecken har markerats med elementet <gi>add</gi>. När lodstreck (|) lagts till för att indikera att det fattas ett mellanslag 
-                  har värdet av "type" satts till blankSpace.
-                  Ändrade/korrigerade tecken har markerats med <gi>subst</gi> och inom detta element
-                  har <gi>del</gi> använts för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till.</p>
-            </correction>
-            <punctuation>
-               <p>Skiljetecken är återgivna exakt så som de står skrivna i brevet. </p>
-            </punctuation>
-            <segmentation>
-               <p>Rader har markerats med <gi>lb</gi> för att troget återge brevets
-                  radbrytning</p>
-               
-            </segmentation>
-         </editorialDecl>
-      </encodingDesc>
-      
+
+
    </teiHeader>
-  
-   
+
+
    <!-- Här kommer facsimile-elementet in.-->
-   
-   
-      
-  <facsimile>
+
+
+
+   <facsimile>
       <surface xml:id="BrevSidaEttAvTvaFramsida">
          <figure>
             <label>Brev sida 1</label>
-            <figDesc>
-               Brev sida 1.
-            </figDesc>
-            <graphic xml:id="BrevSidaEttAvTvaFramsidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaFramsida.jpeg"/>
-           
+            <figDesc> Brev sida 1. </figDesc>
+            <graphic xml:id="BrevSidaEttAvTvaFramsidaGraphic"
+               url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaFramsida.jpeg"/>
+
          </figure>
       </surface>
-     
-   
-        <surface xml:id="BrevSidaEttAvTvaBaksida">
-           <figure>
-              <label>Brev baksida</label>
-              <figDesc>
-                 Brev baksida.
-              </figDesc>
-              <graphic xml:id="BrevSidaEttAvTvaBaksidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaBaksida.jpeg"/>
-              
-           </figure>
-        </surface>
-     
+
+
+      <surface xml:id="BrevSidaEttAvTvaBaksida">
+         <figure>
+            <label>Brev baksida</label>
+            <figDesc> Brev baksida. </figDesc>
+            <graphic xml:id="BrevSidaEttAvTvaBaksidaGraphic"
+               url="assets/img/documents/BrevMellanJPG/BrevSidaEttAvTvaBaksida.jpeg"/>
+
+         </figure>
+      </surface>
+
       <surface xml:id="BrevSidaTvaAvTvaFramsida">
          <figure>
             <label>Brev sida 2</label>
-            <figDesc>
-               Brev sida 2.
-            </figDesc>
-            <graphic xml:id="BrevSidaTvaAvTvaFramsidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaFramsida.jpeg"/>
-         
+            <figDesc> Brev sida 2. </figDesc>
+            <graphic xml:id="BrevSidaTvaAvTvaFramsidaGraphic"
+               url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaFramsida.jpeg"/>
+
          </figure>
       </surface>
-     
-     <surface xml:id="BrevSidaTvaAvTvaBaksida">
-        <figure>
-           <label>Brev  baksida</label>
-           <figDesc>
-              Brev baksida.
-           </figDesc>
-           <graphic xml:id="BrevSidaTvaAvTvaBaksidaGraphic" url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaBaksida.jpeg"/>
-           
-        </figure>
-     </surface>
-      
-   </facsimile>     
-   
-<!-- Och här kommer den tei-taggade texten som kopplas till brevsida -->   
-   
+
+      <surface xml:id="BrevSidaTvaAvTvaBaksida">
+         <figure>
+            <label>Brev baksida</label>
+            <figDesc> Brev baksida. </figDesc>
+            <graphic xml:id="BrevSidaTvaAvTvaBaksidaGraphic"
+               url="assets/img/documents/BrevMellanJPG/BrevSidaTvaAvTvaBaksida.jpeg"/>
+
+         </figure>
+      </surface>
+
+   </facsimile>
+
+   <!-- Och här kommer den tei-taggade texten som kopplas till brevsida -->
+
    <text>
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
-         
-            
-            <p rend="align(center)">
-               Fröken <name>Matilda Widegren</name><lb/>
+<pb/>
+
+            <p rend="align(center)"> Fröken <persName><forename>Matilda</forename><surname>Widegren</surname></persName><lb/>
                <address>
-                  <street>Sibyllegatan 59</street><lb/>
-                  <settlement> stockholm</settlement><lb/>
+                  <street>Sibyllegatan 59</street>
+                  <lb/>
+                  <settlement> stockholm</settlement>
+                  <lb/>
                </address>
             </p>
-            <p>  
-            <lb/>
-            <lb/>Med hänsyn av vikten till de politiska frågorna, som kom-
-               <lb/>ma  att<add place="inspace" type="blankSpace">|</add>diskuteras     <!--Kalla det något annat än "blankSpace"?--><!--Kan inte se att "inline"/"inspace gör någon skillnad-->
-            vid det möte på 
-            <placeName type="building">Auditorium</placeName> 
-            i dag, där Ni
-            <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den 
-            <lb/>indiska frågan, samtidigt som vi närsluta några skrifter, som
-               <lb/>Ni benäget torda taga<add place="inline" type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
-            <lb/>vilka i tysthet lida under de brittiska imperialisternas grym-
-            <lb/>ma utsugningspolitik men vilka sakna möjlighet att göra sina
-            <lb/>röster hörda i Europa, bedja vi få uttala vår förhoppning, att
-            <lb/>Ni bland de fakta och argument, som i afton komma att fram-
-               <lb/>läggas inför den svenska <subst>
+            <p>
+               <lb/>
+               <lb/>Med hänsyn av vikten till de politiska frågorna, som kom- <lb/>ma att<add
+                  place="inspace" type="blankSpace">|</add>diskuteras
+               <!--Kalla det något annat än "blankSpace"?--><!--Kan inte se att "inline"/"inspace gör någon skillnad-->
+               vid det möte på <placeName type="building">Auditorium</placeName> i dag, där Ni
+               <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den <lb/>indiska frågan,
+               samtidigt som vi närsluta några skrifter, som <lb/>Ni benäget torda taga<add
+                  place="inline" type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
+               <lb/>vilka i tysthet lida under de brittiska imperialisternas grym- <lb/>ma
+               utsugningspolitik men vilka sakna möjlighet att göra sina <lb/>röster hörda i Europa,
+               bedja vi få uttala vår förhoppning, att <lb/>Ni bland de fakta och argument, som i
+               afton komma att fram- <lb/>läggas inför den svenska <subst>
                   <del>d</del>
                   <add place="inline">n</add>
-               </subst>a
-               <subst>
+               </subst>a <subst>
                   <del>n</del>
                   <add place="inline">t</add>
-               </subst>ionen, icke underlåter att fram-
-            <lb/>ställa en klar och otvetydig fordran på att <placeName type="country">Indien</placeName>, <placeName type="country">Irland</placeName>,
-            <lb/><placeName type="country">Egypten</placeName> och <placeName type="country">Sydafrika</placeName>, likaväl som <placeName type="country">Polen</placeName>,
-               <placeName type="country">Finland</placeName> <abbr>o.s.v</abbr>.,må
-            <lb/>fritt och utan utländskt herravälde få bestämma över sitt öde
-            <lb/>och intaga sina platser<del>s</del> såsom fria och självständiga medlem-
+               </subst>ionen, icke underlåter att fram- <lb/>ställa en klar och otvetydig fordran på
+               att <placeName type="country">Indien</placeName>, <placeName type="country"
+                  >Irland</placeName>, <lb/><placeName type="country">Egypten</placeName> och
+                  <placeName type="country">Sydafrika</placeName>, likaväl som <placeName
+                  type="country">Polen</placeName>, <placeName type="country">Finland</placeName>
+               <abbr>o.s.v</abbr>.,må <lb/>fritt och utan utländskt herravälde få bestämma över sitt
+               öde <lb/>och intaga sina platser<del>s</del> såsom fria och självständiga medlem-
                <lb/>mar i det föreslagna <orgName>Nationernas förbund</orgName>. Så, som detta för-
-            <lb/>bund nu planeras under de imperialistiska och annexionistiska
-            <lb/>stormakternas välvilliga hägn, utgör de blott en förberedelse
-            <lb/>till ett nytt blodigt krig. Ty vi indier och irländare <abbr>m.fl.</abbr>
-            <lb/>ha icke för avsikt att lämna världen i fred, förrän all den
-            <lb/>orätt, som begåtts genom <placeName type="country">Storbrittaniens</placeName> vidriga, imperialist-
-            <lb/>iska kolonialpolitik, blivit <sic>gottgjörd</sic>. Inom Europa råder en 
-            <lb/>tyst överenskommelse att nedlägga diskussionen angående alla
-            <lb/>frågor, som kunna vara mindre behagliga för <placeName type="region">Englands</placeName> statsmän. 
-            <lb/>Vi hoppas innerligt, att Sveriges kvinnor icke skola taga del
-            <lb/>i denna överenskommelse. Vi kräva öppen diskussion och ögon-
-            <lb/>blicklig rättvisa. <placeName type="continent">Asien</placeName> har ännu icke talat, men om den upp-
-            <lb/>lysta oppinionen inom <placeName type="continent">Europa</placeName> icke är beredd att i godo uppgöra
-            <lb/>dessa tvistefrågor i överensstämmelse med principen om folkens 
-            <lb/>fria självbestämmanderätt, kan <placeName type="continent">Asien</placeName> komma att vidtaga åtgärder
-            <lb/>som kunna bli ännu mycket oangenämare än de fyra år av blodsut-
-            <lb/>gjutelse, vi upplevat <sic>sasom</sic> en följd av de europeiska stormakt-
-         </p>
+               <lb/>bund nu planeras under de imperialistiska och annexionistiska <lb/>stormakternas
+               välvilliga hägn, utgör de blott en förberedelse <lb/>till ett nytt blodigt krig. Ty
+               vi indier och irländare <abbr>m.fl.</abbr>
+               <lb/>ha icke för avsikt att lämna världen i fred, förrän all den <lb/>orätt, som
+               begåtts genom <placeName type="country">Storbrittaniens</placeName> vidriga,
+               imperialist- <lb/>iska kolonialpolitik, blivit <sic>gottgjörd</sic>. Inom <bloc type="continent">Europa</bloc> 
+               råder en <lb/>tyst överenskommelse att nedlägga diskussionen angående alla
+               <lb/>frågor, som kunna vara mindre behagliga för <placeName type="region">Englands</placeName> statsmän.                
+               <lb/>Vi hoppas innerligt, att <placeName type="country">Sveriges</placeName> kvinnor
+               icke skola taga del <lb/>i denna överenskommelse. Vi kräva öppen diskussion och ögon-
+               <lb/>blicklig rättvisa. <bloc type="continent">Asien</bloc> har ännu icke
+               talat, men om den upp- <lb/>lysta oppinionen inom <placeName type="continent"
+                  >Europa</placeName> icke är beredd att i godo uppgöra <lb/>dessa tvistefrågor i
+               överensstämmelse med principen om folkens <lb/>fria självbestämmanderätt, kan
+                  <bloc type="continent">Asien</bloc> komma att vidtaga åtgärder <lb/>som
+               kunna bli ännu mycket oangenämare än de fyra år av blodsut- <lb/>gjutelse, vi
+               upplevat <sic>sasom</sic> en följd av de europeiska stormakt- </p>
          </div>
-         
+
          <!-- Baksidan av första sidan kommer här -->
-         
+
          <div type="page" facs="#BrevSidaEttAvTvaBaksida">
-            <p>
-               Och här ska baksidestexten in. 
-            </p>
-            </div>
-         
+            <p> Och här ska baksidestexten in. </p>
+         </div>
+
          <!-- Här startar sida 2 -->
          <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
-         <p>ernas rövarpolitik.
-            <lb/>      Vi förlita oss på, att varje talare vid mötet skall syssel-
-            <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska
-            <lb/>problemen, vilka ännu vänta på sin lös
-            <subst>
-               <del>i</del>
-               <add place="inline">n</add>
-            </subst>
-            <subst>
-               <del>n</del>
-               <add place="inline">i</add>
-            </subst>ng, och att dessa uttryck-
-            <lb/>ligen framhållas i den resolutionen, som skall framläggas för
-            <lb/>landet, utan fruktan för <placeName type="region">England</placeName> eller <sic>nagon</sic> annan nation. </p>
+            <pb/>
+            <p>ernas rövarpolitik. <lb/> Vi förlita oss på, att varje talare vid mötet skall syssel-
+               <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska <lb/>problemen,
+               vilka ännu vänta på sin lös <subst>
+                  <del>i</del>
+                  <add place="inline">n</add>
+               </subst>
+               <subst>
+                  <del>n</del>
+                  <add place="inline">i</add>
+               </subst>ng, och att dessa uttryck- <lb/>ligen framhållas i den resolutionen, som
+               skall framläggas för <lb/>landet, utan fruktan för <placeName type="region"
+                  >England</placeName> eller <sic>nagon</sic> annan nation. </p>
             <lb/>
-            <lb/> 
-            
-               <closer rend="align(center)"> <signed>︎Vi ha äran teckna
-            <lb/>       med utmärkt högaktning
             <lb/>
-            <lb/>           <name>Virendranâth Chattopaðhyâya</name></signed></closer>
-            
-                        
-         
+
+            <closer rend="align(center)">
+               <signed>︎Vi ha äran teckna <lb/> med utmärkt högaktning <lb/>
+                  <lb/>
+                  <name>Virendranâth Chattopaðhyâya</name></signed></closer>
+
+
+
          </div>
-         
+
          <!-- Här kommer baksidan av sida två -->
-         
+
          <div type="page" facs="#BrevSidaTvaAvTvaBaksida">
-            <p>
-               Och här ska baksidestexten in. 
-            </p>
+            <p> Och här ska baksidestexten in. </p>
          </div>
       </body>
    </text>
