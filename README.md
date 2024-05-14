@@ -1,3 +1,3 @@
-# SarasTestRepository
+# IKFFKongressen 1919
 
-Det här är ett repo vi använder för att arbeta med vårt digitaliseringsprojekt.
+Ett digitaliseringsprojekt inom ramen för kursen Digitalisering för bevarande och tillgänglighet, Högskolan i Borås, vt -24 .
