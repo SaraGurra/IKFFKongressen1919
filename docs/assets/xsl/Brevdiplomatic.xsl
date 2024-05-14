@@ -21,8 +21,8 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
-                <link rel="stylesheet" href="assets/css/brev.css"/>
+              
+            
             </head>
             <body>
                 <header>
