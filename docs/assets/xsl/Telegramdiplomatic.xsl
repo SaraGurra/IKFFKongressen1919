@@ -37,11 +37,18 @@
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="om.html">Om</a> |
                 </nav>
-                <main id="manuscript">
+                <main id="bakgrund"> 
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <div class="container">
-                    <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
+                    <div class="intro"><!--La in .intro i main.css-->
                         
+                        
+                        
+                        
+                        <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som
+                            antagits av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits
+                            fredskonferensen och regeringarna representerande de 9 Nationernas förbund.</p>
+                    </div>
+                    <div class="container">
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
@@ -80,12 +87,12 @@
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <article class="transcription">
-                                            <xsl:apply-templates/>                                      
+                                        <xsl:apply-templates/>                                      
                                     </article>
                                 </div>
                             </div>
                         </xsl:for-each>
-                        </div>
+                    </div>
                 </main>
                 <footer>
                 <div class="row" id="footer">

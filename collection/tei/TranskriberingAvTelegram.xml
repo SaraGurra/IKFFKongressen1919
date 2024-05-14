@@ -198,7 +198,7 @@
 
    <text>
       <body>
-         <pb type="page" facs="#TelegramSidaEttAvTreFramsida"/>
+         <div type="page" facs="#TelegramSidaEttAvTreFramsida">
          <!-- Nedan följer texten på sida 1 -->
          <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
          <p rend="align(center)">= <surname>widegren</surname>
@@ -219,8 +219,9 @@
             <lb/>so seriously violate the principles upon <lb/>which alone adjust and lastin peace
             can <lb/>be secured and which the democracies of the <lb/>world had come to accept by
             guaranteeing the </p>
+            </div>
 
-         <pb type="page" facs="#TelegramSidaTvaAvTreFramsida"/>
+         <div type="page" facs="#TelegramSidaTvaAvTreFramsida">
          <!-- Nedan följer texten på sida 2 -->
          <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
             tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
@@ -231,9 +232,9 @@
             economic proposals a hundred <lb/>million people of this <sic>genesation</sic> in the
             <lb/>heart of europe are condemned to poverty <lb/>disease and <sic>despais</sic> which
             must result in the <lb/>spread of hatred and anarchy within each </p>
+         </div>
 
-
-         <pb type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left"/>
+         <div type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left">
          <!-- Nedan följer texten på sida 3 -->
          <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
             isibility <lb/>this congress strongly urges the allied <lb/>governments to accept such
@@ -243,6 +244,7 @@
                   ><roleName type="office">president</roleName><surname> wilson</surname></ref> upon
             <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples depends =
                <lb/><surname rend="right"> kroepelien</surname> * </p>
+           </div>
       </body>
    </text>
 </TEI>
