@@ -9,7 +9,7 @@
          <titleStmt>
             <title>Telegram till Widegren</title>
             <author>
-               <surname>Kroepelien</surname>
+               <persName><surname>Kroepelien</surname></persName>
             </author>
             <principal>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea
                Palmqvist</principal>
@@ -50,15 +50,18 @@
             <date when="2024-05-22">22 maj 2024</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som
-               antagits av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits
-               fredskonferensen och regeringarna representerande de 9 Nationernas förbund.
-               Telegrammet återfinns i <ref
+            <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den <ref
+                  target="https://wilpf.org/wp-content/uploads/2012/08/WILPF_triennial_congress_1919.pdf"
+                  > resolution</ref> som antagits av WILFPs kvinnokonferens för fred i Zürich 1919
+               och som delgivits fredskonferensen och regeringarna representerande de 9 Nationernas
+               förbund. Den del av resolutionen som återges i telegrammet är det första stycket i
+               del II Treatey of Peace, benämnd "Peace Terms". Telegrammet återfinns i <ref
                   target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346"
                   >IKFF:s samling</ref> i KvinnSams arkiv, Humanistiska biblioteket, Göteborgs
                universitet. </p>
          </sourceDesc>
       </fileDesc>
+
       <encodingDesc>
          <projectDesc>
             <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås,
@@ -85,11 +88,14 @@
             <segmentation>
                <p>Rader har markerats med <gi>lb</gi> för att troget återge telegrammets
                   radbrytning</p>
-               <p>Sidor har markerats med <gi>pb</gi> som fått attributet <att>page</att> samt
-                  attributet <att>facs</att> följt av filnamnet som innehåller bilden på texten</p>
+               <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> samt
+                  attributet <att>facs</att> följt av filnamnet som innehåller bilden på texten. Ny
+                  sida i telegrammet är också markerat med <gi>pb</gi>
+               </p>
             </segmentation>
          </editorialDecl>
       </encodingDesc>
+      
       <profileDesc>
          <textDesc>
             <channel mode="w">Telegram</channel>
@@ -97,7 +103,7 @@
             <derivation type="abridgment"/>
             <domain type="public"/>
             <factuality type="fact"/>
-            <interaction active="plural"/>
+            <interaction active="plural" passive="single"/>
             <preparedness type="revised"/>
             <purpose type="inform"/>
          </textDesc>
@@ -108,7 +114,7 @@
 
          <correspDesc>
             <correspAction type="sent">
-               <surname>Kroepelien</surname>
+               <persName><surname>Kroepelien</surname></persName>               
                <placeName>Zürich</placeName>
                <date when="1919-05-13">13 maj 1919</date>
             </correspAction>
@@ -154,7 +160,8 @@
                      <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">Versaillesfreden 1919</ref>
+                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919"
+                        >Versaillesfreden 1919</ref>
                   </item>
                </list>
             </keywords>
@@ -199,52 +206,54 @@
    <text>
       <body>
          <div type="page" facs="#TelegramSidaEttAvTreFramsida">
-         <!-- Nedan följer texten på sida 1 -->
-         <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
-         <p rend="align(center)">= <surname>widegren</surname>
-            <address>
-               <street>sibyllegatan 59</street>
-               <settlement> stockholm</settlement>
-            </address>
-         </p>
-         <p rend="left">resolution carried unanimously sent <lb/>to peace conference and the 9 <ref
-               target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
-                  <lb/>nation</orgName></ref> governments this <sic>interwational</sic> congress
-            <lb/>of women expresses its deep regret that the <lb/>terms of peace prm <add
-               place="inline" hand="OK">o</add> posed at 
-            <placeName type="Event">
-               versailles
-            </placeName>
-            should
-            <lb/>so seriously violate the principles upon <lb/>which alone adjust and lastin peace
-            can <lb/>be secured and which the democracies of the <lb/>world had come to accept by
-            guaranteeing the </p>
-            </div>
+            <!-- Nedan följer texten på sida 1 -->
+            <pb/>
+            <p rend="align(center)">c 71/14 b zurich 8070 230 w 13/5 14 05</p>
+            <p rend="align(center)">= <surname>widegren</surname>
+               <address>
+                  <street>sibyllegatan 59</street>
+                  <settlement> stockholm</settlement>
+               </address>
+            </p>
+            <p rend="left">resolution carried unanimously sent <lb/>to peace conference and the 9
+                  <ref target="https://en.wikipedia.org/wiki/League_of_Nations"><orgName>league of
+                     <lb/>nation</orgName></ref> governments this 
+               <placeName type="event" ref="https://womenvotepeace.com/zurich-congress-1919/"><sic>interwational</sic> congress
+                        <lb/>of women</placeName> expresses its deep regret that the <lb/>terms of peace prm <add
+                  place="inline" hand="OK">o</add> posed at <placeName type="Event" ref="https://sv.wikipedia.org/wiki/Versaillesfreden"> versailles
+               </placeName> should <lb/>so seriously violate the principles upon <lb/>which alone
+               adjust and lastin peace can <lb/>be secured and which the democracies of the
+               <lb/>world had come to accept by guaranteeing the </p>
+         </div>
 
          <div type="page" facs="#TelegramSidaTvaAvTreFramsida">
-         <!-- Nedan följer texten på sida 2 -->
-         <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
-            tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
-            recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all over
-            europe discords an <sic>animoities</sic> which <lb/>can lead only to future wars by the
-            demand <lb/>for the disarmament of one set of belligeran ts <lb/>only the principle of
-            justice is violated <lb/>and the rule of force is continued by the <lb/>financial and
-            economic proposals a hundred <lb/>million people of this <sic>genesation</sic> in the
-            <lb/>heart of europe are condemned to poverty <lb/>disease and <sic>despais</sic> which
-            must result in the <lb/>spread of hatred and anarchy within each </p>
+            <!-- Nedan följer texten på sida 2 -->
+            <pb/>
+            <p rend="left">fruits of the secret treaties to the <lb/>conquerors the terms of peace
+               tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
+               recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all
+               over <bloc type="contitent">europe</bloc> discords an <sic>animoities</sic> which <lb/>can lead only to future wars
+               by the demand <lb/>for the disarmament of one set of belligeran ts <lb/>only the
+               principle of justice is violated <lb/>and the rule of force is continued by the
+               <lb/>financial and economic proposals a hundred <lb/>million people of this
+               <sic>genesation</sic> in the <lb/>heart of <bloc type="continent">europe</bloc> are condemned to poverty
+               <lb/>disease and <sic>despais</sic> which must result in the <lb/>spread of hatred
+               and anarchy within each </p>
          </div>
 
          <div type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left">
-         <!-- Nedan följer texten på sida 3 -->
-         <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
-            isibility <lb/>this congress strongly urges the allied <lb/>governments to accept such
-            amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into harmony
-            with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen">principles</ref>
-            <lb/>first enumerated by <ref target="https://sv.wikipedia.org/wiki/Woodrow_Wilson"
-                  ><roleName type="office">president</roleName><surname> wilson</surname></ref> upon
-            <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples depends =
-               <lb/><surname rend="right"> kroepelien</surname> * </p>
-           </div>
+            <!-- Nedan följer texten på sida 3 -->
+            <pb/>
+            <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
+               isibility <lb/>this congress strongly urges the allied <lb/>governments to accept
+               such amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into
+               harmony with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen"
+                  >principles</ref>
+               <lb/>first enumerated by <ref target="https://sv.wikipedia.org/wiki/Woodrow_Wilson"
+                     ><roleName type="office">president</roleName><surname> wilson</surname></ref>
+               upon <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples
+               depends = <lb/><persName><surname rend="right"> kroepelien</surname></persName> * </p>
+         </div>
       </body>
    </text>
 </TEI>
