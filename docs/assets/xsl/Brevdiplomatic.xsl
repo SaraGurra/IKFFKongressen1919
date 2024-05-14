@@ -40,8 +40,8 @@
                 </nav>
                 <main id="bakgrund"> 
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <div class="intro"><!--La in .intro i brev.css men verkar inte ändra något-->
-                    <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
+                    <div class="intro"><!--La in .intro i main.css-->
+                   
                        
                         
                         
