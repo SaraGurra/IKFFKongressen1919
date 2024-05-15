@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Telegram till Widegren
+                    Brev till Matilda Widegren
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -21,7 +21,8 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-               
+              
+            
             </head>
             <body>
                 <header>
@@ -32,22 +33,23 @@
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> |
                     <a href="fotografier.html">Fotografier</a> |
-                    <a href="TranskriberingAvTelegram.html">Telegram</a> |
-                    <a href="BrevFranTei.html">Brev</a> |
+                    <a href="telegramTillWidegren.html">Telegram</a> |
+                    <a href="brevTillWidegren.html">Brev</a> |
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="om.html">Om</a> |
                 </nav>
                 <main id="bakgrund"> 
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="intro"><!--La in .intro i main.css-->
+                   
+                       
                         
                         
-                        
-                        
-                        <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som
-                            antagits av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits
-                            fredskonferensen och regeringarna representerande de 9 Nationernas förbund.</p>
-                    </div>
+                            <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
+                            Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra Indiens, 
+                            och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
+                            självständiga medlemmar i Nationernas Förbund</p>
+                        </div>
                     <div class="container">
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="//tei:div[@type='page']">
@@ -87,26 +89,26 @@
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <article class="transcription">
-                                        <xsl:apply-templates/>                                      
+                                            <xsl:apply-templates/>                                      
                                     </article>
                                 </div>
                             </div>
                         </xsl:for-each>
-                    </div>
+                        </div>
                 </main>
                 <footer>
-                <div class="row" id="footer">
-                  <div class="col-sm copyright">
-                      <div>
-                          <a href="https://creativecommons.org/publicdomain/mark/1.0/">
-                              <img src="assets/img/logos/cc.xlarge.png" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/pd.xlarge.png" class="copyright_logo" alt="PDM 1.0 Deed"/>
-                        </a>
-                      </div>
-                      <div>
-                         2024 Sara, Ulrika, Emma, LInnéa.
-                      </div>
+                    <div class="row" id="footer">
+                        <div class="col-sm copyright">
+                            <div>
+                                <a href="https://creativecommons.org/publicdomain/mark/1.0/">
+                                    <img src="assets/img/logos/cc.xlarge.png" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/pd.xlarge.png" class="copyright_logo" alt="PDM 1.0 Deed"/>
+                                </a>
+                            </div>
+                            <div>
+                                2024 Sara, Ulrika, Emma, LInnéa.
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </footer>
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
