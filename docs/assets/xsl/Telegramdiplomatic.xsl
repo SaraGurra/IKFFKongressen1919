@@ -31,7 +31,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> |
-                    <a href="foton.html">Fotografier</a> |
+                    <a href="fotografier.html">Fotografier</a> |
                     <a href="TranskriberingAvTelegram.html">Telegram</a> |
                     <a href="BrevFranTei.html">Brev</a> |
                     <a href="bakgrund.html">Bakgrund</a> |
