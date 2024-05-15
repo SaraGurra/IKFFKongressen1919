@@ -272,7 +272,7 @@
          <!-- Baksidan av första sidan kommer här -->
 
          <div type="page" facs="#BrevSidaEttAvTvaBaksida">
-            <p> Och här ska baksidestexten in. </p>
+           
          </div>
 
          <!-- Här startar sida 2 -->
@@ -305,7 +305,7 @@
          <!-- Här kommer baksidan av sida två -->
 
          <div type="page" facs="#BrevSidaTvaAvTvaBaksida">
-            <p> Och här ska baksidestexten in. </p>
+            
          </div>
       </body>
    </text>
