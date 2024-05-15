@@ -18,6 +18,8 @@ nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
+    font-size: 1.5vw;
+
     }
 
 h2 {
@@ -46,17 +48,31 @@ footer {
     border-bottom: 1px solid black;
     padding: 1vw;
     margin: 2% 25%;
+    font-size: 1.25vw;
+
 }
 
 .motiv {
     padding: 1vw;
     margin-right: 20%; 
     margin-left:1%;
+    font-size: 1.25vw;
+
     }
 
 .bildtext {
     padding: 4px;
-    width: 30vw;  
+    width: 30vw; 
+    font-size: 1.25vw;
+
+    }
+    
+    
+.quote {
+    width: 50%;
+    margin: auto;
+    font-size: 1.25vw;
+
     }
 
 .row {
@@ -84,10 +100,6 @@ footer {
 		margin:.15vw;
 	}
 
-.quote {
-    width: 50%;
-    margin: auto;
-    }
     
 #collection {
     display: flex;
