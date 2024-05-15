@@ -68,7 +68,7 @@
             <p>Denna TEI-kodning är en del av en uppgift för Bibliotekshögskolan i Borås,
                Masterprogram i Biblioteks- och informationsvetenskap, distansutbildning BMBD1 32034,
                md start HT2023, specifikt kursen Digitalisering för bevarande och tillgänglighet
-               C3IDB1 B29V4 löpande under VT2024. Uppgiften består i att i smaverkan med en extrern
+               C3IDB1 B29V4 löpande under VT2024. Uppgiften består i att i samverkan med en extern
                organisation genomföra ett kritiskt inriktat digitaliseringsprojekt för att bevara
                och tillgängliggöra kulturarvsmaterial. Detta projekt samarbetar med Rachel Pierce
                vid Kvinnsam, Göteborgs universitet, med att digitalisera material från deras arkiv
@@ -214,7 +214,7 @@
    <text>
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
-<pb/>
+
 
             <p rend="align(center)"> Fröken <persName><forename>Matilda</forename><surname>Widegren</surname></persName><lb/>
                <address>
