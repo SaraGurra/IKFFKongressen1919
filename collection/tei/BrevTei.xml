@@ -214,7 +214,7 @@
    <text>
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
-
+<pb/>
 
             <p rend="align(center)"> Fröken <persName><forename>Matilda</forename><surname>Widegren</surname></persName><lb/>
                <address>
@@ -232,7 +232,7 @@
                vid det möte på <placeName type="building">Auditorium</placeName> i dag, där Ni
                <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den <lb/>indiska frågan,
                samtidigt som vi närsluta några skrifter, som <lb/>Ni benäget torda taga<add
-                  place="inline" type="blankSpace">|</add>del av. Å de millioner männsikors vägnar,
+                  place="inline" type="blankSpace">|</add>del av. Å de millioner människors vägnar,
                <lb/>vilka i tysthet lida under de brittiska imperialisternas grym- <lb/>ma
                utsugningspolitik men vilka sakna möjlighet att göra sina <lb/>röster hörda i Europa,
                bedja vi få uttala vår förhoppning, att <lb/>Ni bland de fakta och argument, som i
@@ -277,7 +277,7 @@
 
          <!-- Här startar sida 2 -->
          <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
-            <pb/>
+         <pb/>
             <p>ernas rövarpolitik. <lb/> Vi förlita oss på, att varje talare vid mötet skall syssel-
                <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska <lb/>problemen,
                vilka ännu vänta på sin lös <subst>
