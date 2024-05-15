@@ -98,8 +98,8 @@
                 <div class="row" id="footer">
                   <div class="col-sm copyright">
                       <div>
-                        <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                          <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
+                          <a href="https://creativecommons.org/publicdomain/mark/1.0/">
+                              <img src="assets/img/logos/cc.xlarge.png" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/pd.xlarge.png" class="copyright_logo" alt="PDM 1.0 Deed"/>
                         </a>
                       </div>
                       <div>
