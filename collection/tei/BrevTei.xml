@@ -214,7 +214,7 @@
    <text>
       <body>
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
-<!-- pb är borttaget här-->
+<pb/>
 
             <p rend="align(center)"> Fröken <persName><forename>Matilda</forename><surname>Widegren</surname></persName><lb/>
                <address>
@@ -277,7 +277,7 @@
 
          <!-- Här startar sida 2 -->
          <div type="page" facs="#BrevSidaTvaAvTvaFramsida">
-         <!--    <pb/> -->
+         <pb/>
             <p>ernas rövarpolitik. <lb/> Vi förlita oss på, att varje talare vid mötet skall syssel-
                <lb/>sätta sig med de indiska, irländska, egyptiska och sydafrikanska <lb/>problemen,
                vilka ännu vänta på sin lös <subst>
