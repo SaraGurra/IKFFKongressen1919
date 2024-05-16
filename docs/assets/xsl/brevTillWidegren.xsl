@@ -48,7 +48,7 @@
                             <p>Brev till Matilda Widegren från Virendranâth Chattopaðhyâya, Indiska Nationalkommitén, med anledning av att 
                             Widegren ska hålla ett tal på ett möte inför bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra Indiens, 
                             och andra brittiska koloniers talan och argumentera för att dessa nationer ska få ingå som
-                            självständiga medlemmar i Nationernas Förbund</p>
+                            självständiga medlemmar i Nationernas Förbund.</p>
                         </div>
                     <div class="container">
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
