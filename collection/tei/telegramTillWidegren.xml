@@ -188,7 +188,7 @@
       <surface xml:id="TelegramSidaEttAvTreBaksida">
          <figure>
             <label>Telegram sida 1</label>
-            <figDesc> Telegram sida 1. </figDesc>
+            <figDesc> Telegram baksida </figDesc>
             <graphic xml:id="TelegramSidaEttAvTreBaksidaGraphic"
                url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttAvTreBaksida.jpeg"/>
             
@@ -210,7 +210,7 @@
       <surface xml:id="TelegramSidaTvaAvTreBaksida">
          <figure>
             <label>Telegram sida 2</label>
-            <figDesc> Telegram sida 2. </figDesc>
+            <figDesc> Telegram baksida. </figDesc>
             <graphic xml:id="TelegramSidaTvaAvTreBaksidaGraphic"
                url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreBaksida.jpeg"/>
             
@@ -233,7 +233,7 @@
       <surface xml:id="TelegramSidaTreAvTreBaksida">
          <figure>
             <label>Telegram sida 3</label>
-            <figDesc> Telegram sida 3. </figDesc>
+            <figDesc> Telegram baksida. </figDesc>
             <graphic xml:id="TelegramSidaTreAvTreBaksidaGraphic"
                url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreAvTreBaksida.jpeg"/>
             
