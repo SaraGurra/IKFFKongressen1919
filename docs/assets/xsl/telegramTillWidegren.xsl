@@ -44,9 +44,10 @@
                         
                         
                         
-                        <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som
-                            antagits av WILFPs kvinnokonferens för fred i Zürich 1919 och som delgivits
-                            fredskonferensen och regeringarna representerande de 9 Nationernas förbund.</p>
+                        <p>Telegram till (Matilda) Widegren från Kroepelien, med anledning av den resolution som antagits av WILFP:s kvinnokonferens för fred i Zürich 1919. 
+                            Resolutionen delgavs fredskonferensen och regeringar tillhörande Nationernas förbund.
+                            
+                            </p>
                     </div>
                     <div class="container">
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
