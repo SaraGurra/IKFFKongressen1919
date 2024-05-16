@@ -172,6 +172,8 @@
    <!-- Här kommer facsimile-elementet in.-->
 
    <facsimile>
+      
+<!--Framsida 1-->
       <surface xml:id="TelegramSidaEttAvTreFramsida">
          <figure>
             <label>Telegram sida 1</label>
@@ -181,6 +183,19 @@
 
          </figure>
       </surface>
+      
+<!--Baksida 1-->   
+      <surface xml:id="TelegramSidaEttAvTreBaksida">
+         <figure>
+            <label>Telegram sida 1</label>
+            <figDesc> Telegram sida 1. </figDesc>
+            <graphic xml:id="TelegramSidaEttAvTreBaksidaGraphic"
+               url="assets/img/documents/TelegramMellanJPG/TelegramSidaEttAvTreBaksida.jpeg"/>
+            
+         </figure>
+      </surface>    
+      <!--Framida 2-->    
+      
       <surface xml:id="TelegramSidaTvaAvTreFramsida">
          <figure>
             <label>Telegram sida 2</label>
@@ -190,6 +205,20 @@
 
          </figure>
       </surface>
+      
+      <!--Baksida 2-->   
+      <surface xml:id="TelegramSidaTvaAvTreBaksida">
+         <figure>
+            <label>Telegram sida 2</label>
+            <figDesc> Telegram sida 2. </figDesc>
+            <graphic xml:id="TelegramSidaTvaAvTreBaksidaGraphic"
+               url="assets/img/documents/TelegramMellanJPG/TelegramSidaTvaAvTreBaksida.jpeg"/>
+            
+         </figure>
+      </surface>     
+      
+      <!--Framsida 3-->   
+      
       <surface xml:id="TelegramSidaTreAvTreFramsida">
          <figure>
             <label>Telegram sida 3</label>
@@ -199,6 +228,18 @@
 
          </figure>
       </surface>
+      
+      <!--Baksida 3-->   
+      <surface xml:id="TelegramSidaTreAvTreBaksida">
+         <figure>
+            <label>Telegram sida 3</label>
+            <figDesc> Telegram sida 3. </figDesc>
+            <graphic xml:id="TelegramSidaTreAvTreBaksidaGraphic"
+               url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreAvTreBaksida.jpeg"/>
+            
+         </figure>
+      </surface>     
+      
    </facsimile>
 
    <!-- Och här kommer den tei-taggade texten som kopplas till telegramsida -->
@@ -225,6 +266,11 @@
                a just and <sic>lastin</sic> peace can <lb/>be secured and which the democracies of the
                <lb/>world had come to accept by guaranteeing the </p>
          </div>
+         <!--Baksida 1-->
+         <div type="page" facs="#TelegramSidaEttAvTreBaksida">
+            <!-- Ingen baksidestext -->
+            <pb/>
+         </div>
 
          <div type="page" facs="#TelegramSidaTvaAvTreFramsida">
             <!-- Nedan följer texten på sida 2 -->
@@ -240,6 +286,13 @@
                <lb/>disease and <sic>despais</sic> which must result in the <lb/>spread of hatred
                and anarchy within each </p>
          </div>
+            
+            <!--Baksida 2-->
+     
+            <div type="page" facs="#TelegramSidaTvaAvTreBaksida">
+               <!-- Ingen baksidestext -->
+               <pb/>
+            </div>
 
          <div type="page" facs="#TelegramSidaTreAvTreFramsida" rend="left">
             <!-- Nedan följer texten på sida 3 -->
@@ -253,6 +306,11 @@
                      ><roleName type="office">president</roleName><surname> wilson</surname></ref>
                upon <lb/>the faithful carrying out of which the <lb/>honour of the allied peoples
                depends = <lb/><persName><surname rend="right"> kroepelien</surname></persName> * </p>
+         </div>
+         <!--Baksida 3-->
+         <div type="page" facs="#TelegramSidaTreAvTreBaksida">
+            <!-- Ingen baksidestext -->
+            <pb/>
          </div>
       </body>
    </text>
