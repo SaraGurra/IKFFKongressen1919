@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xml:lang="sv">
       <fileDesc>
          <titleStmt>
             <title>Brev till Widegren</title>
@@ -79,12 +79,16 @@
                <p> Texten har transkriberats exakt så som den står skriven i brevet. </p>
             </normalization>
             <correction>
-               <p>All korrigering är gjord med skrivmaskin. Ickekorrigerade stavfel har markerats
-                  med elementet <gi>sic</gi>. Adderade tecken har markerats med elementet
-                  <gi>add</gi>. När lodstreck (|) lagts till för att indikera att det fattas ett
-                  mellanslag har värdet av "type" satts till blankSpace. Ändrade/korrigerade tecken
-                  har markerats med <gi>subst</gi> och inom detta element har <gi>del</gi> använts
-                  för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till.</p>
+               <p>All korrigering är gjord med skrivmaskin. 
+                  Ickekorrigerade stavfel har markerats
+                  med elementet <gi>sic</gi>. 
+                  Adderade tecken har markerats med elementet
+                  <gi>add</gi>. 
+                  När lodstreck (|) lagts till för att indikera att det fattas ett
+                  mellanslag har värdet av "type" satts till blankSpace. 
+                  Ändrade/korrigerade tecken har markerats med <gi>subst</gi> och inom detta element har <gi>del</gi> använts
+                  för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till. Ett överstruket tecken som inte ersatts av en bokstav
+                  har markerats med <gi>del</gi> och rend="overstrike".</p>
             </correction>
             <punctuation>
                <p>Skiljetecken är återgivna exakt så som de står skrivna i brevet. </p>
@@ -216,11 +220,11 @@
          <div type="page" facs="#BrevSidaEttAvTvaFramsida">
 <pb/>
 
-            <p rend="align(center)"> Fröken <persName><forename>Matilda</forename><surname>Widegren</surname></persName><lb/>
+            <p rend="align(center)"> Fröken <persName><forename>Matilda</forename><surname>Widegren</surname></persName>,<lb/>
                <address>
                   <street>Sibyllegatan 59</street>
                   <lb/>
-                  <settlement> Stockholm</settlement>
+                  <settlement> Stockholm.</settlement>
                   <lb/>
                </address>
             </p>
@@ -251,7 +255,7 @@
                öde <lb/>och intaga sina platser<del rend="overstrike">s</del> såsom fria och självständiga medlem-
                <lb/>mar i det föreslagna <orgName>Nationernas förbund</orgName>. Så, som detta för-
                <lb/>bund nu planeras under de imperialistiska och annexionistiska <lb/>stormakternas
-               välvilliga hägn, utgör de blott en förberedelse <lb/>till ett nytt blodigt krig. Ty
+               välvilliga hägn, utgör det blott en förberedelse <lb/>till ett nytt blodigt krig. Ty
                vi indier och irländare <abbr>m.fl.</abbr>
                <lb/>ha icke för avsikt att lämna världen i fred, förrän all den <lb/>orätt, som
                begåtts genom <placeName type="country">Storbrittaniens</placeName> vidriga,
