@@ -13,14 +13,21 @@
                   <surname>Chattopaðhyâya</surname>
                </persName>
             </author>
-            <principal>Sara Gustavsson, Ulrika Widh Eriksson, Emma Missne, Linnea
-               Palmqvist</principal>
+            <principal>
+               <persName><forename>Ulrika</forename><surname>Widh Eriksson</surname></persName>
+               <persName><forename>Sara</forename><surname>Gustavsson</surname></persName>
+               <persName><forename>Emma</forename><surname>Missne</surname></persName>
+               <persName><forename>Linnea</forename><surname>Palmqvist</surname></persName>
+            </principal>
             <respStmt>
-               <name>Sara Gustavsson</name>
+               <persName><forename>Sara</forename><surname>Gustavsson</surname></persName>
                <resp>Transkriberad av</resp>
             </respStmt>
             <respStmt>
-               <name>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea Palmqvist</name>
+               <persName><forename>Ulrika</forename><surname>Widh Eriksson</surname></persName>
+               <persName><forename>Sara</forename><surname>Gustavsson</surname></persName>
+               <persName><forename>Emma</forename><surname>Missne</surname></persName>
+               <persName><forename>Linnea</forename><surname>Palmqvist</surname></persName>
                <resp>Transkribering och kodning redigerad och validerad av</resp>
             </respStmt>
          </titleStmt>
@@ -29,8 +36,12 @@
                <width>22</width>
             </dimensions></extent>
          <publicationStmt>
-            <authority>Ulrika Widh Eriksson, Sara Gustavsson, Emma Missne, Linnea
-               Palmqvist</authority>
+            <authority>
+               <persName><forename>Ulrika</forename><surname>Widh Eriksson</surname></persName>
+               <persName><forename>Sara</forename><surname>Gustavsson</surname></persName>
+               <persName><forename>Emma</forename><surname>Missne</surname></persName>
+               <persName><forename>Linnea</forename><surname>Palmqvist</surname></persName>
+            </authority>
             <distributor>Högskolan i Borås</distributor>
             <address>
                <name type="insitution">Bibliotekhögskolan</name>
@@ -76,7 +87,7 @@
          </projectDesc>
          <editorialDecl>
             <normalization>
-               <p> Texten har transkriberats exakt så som den står skriven i brevet. </p>
+               <p> Texten har transkriberats diplomatiskt, dvs exakt så som den står skriven i brevet. </p>
             </normalization>
             <correction>
                <p>All korrigering är gjord med skrivmaskin. 
