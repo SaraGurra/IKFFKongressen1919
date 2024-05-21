@@ -60,17 +60,17 @@
          </publicationStmt>
          <sourceDesc>
             <p>Brev till <persName
-               ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren">Matilda
-               Widegren</persName> från <persName
-                  ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya">Virendranâth
-                  Chattopaðhyâya</persName>, Indiska
-               Nationalkommitén, den <date when="1919-01-28">28 januari 1919</date> med anledning av att Widegren ska hålla ett tal på ett möte inför
+               ref="https://skbl.se/sv/artikel/MariaMatildaAuroraWidegrenWidegren"><forename>Matilda</forename>
+               <surname>Widegren</surname></persName> från <persName
+                  ref="https://en.wikipedia.org/wiki/Virendranath_Chattopadhyaya"><forename>Virendranâth</forename>
+                  <surname>Chattopaðhyâya</surname></persName>, <orgName>Indiska
+                     Nationalkommitén</orgName>, den <date when="1919-01-28">28 januari 1919</date> med anledning av att Widegren ska hålla ett tal på ett möte inför
                bildandet av Nationernas Förbund. Brevskrivaren vädjar om att Widegren ska föra
-               Indiens och andra brittiska koloniers talan och argumentera för att dessa nationer
-               ska få ingå som självständiga medlemmar i Nationernas Förbund. Brevet återfinns i
+               <placeName type="country">Indien</placeName>s och andra brittiska koloniers talan och argumentera för att dessa nationer
+               ska få ingå som självständiga medlemmar i <orgName>Nationernas Förbund</orgName>. Brevet återfinns i
                   <ref target="https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record:115346"
                   >IKFF:s samling</ref> i KvinnSams arkiv, Humanistiska biblioteket, Göteborgs
-               universitet. </p>
+               universitet.</p>
            </sourceDesc>
       </fileDesc>
       
@@ -91,14 +91,12 @@
             </normalization>
             <correction>
                <p>All korrigering är gjord med skrivmaskin. 
-                  Ickekorrigerade stavfel har markerats
-                  med elementet <gi>sic</gi>. 
-                  Adderade tecken har markerats med elementet
-                  <gi>add</gi>. 
+                  Ickekorrigerade stavfel har markerats med elementet <gi>sic</gi>. 
+                  Adderade tecken har markerats med elementet <gi>add</gi>. 
                   När lodstreck (|) lagts till för att indikera att det fattas ett
                   mellanslag har värdet av "type" satts till blankSpace. 
                   Ändrade/korrigerade tecken har markerats med <gi>subst</gi> och inom detta element har <gi>del</gi> använts
-                  för det överstrukna tecknet och <gi>add</gi> för det tecken som lagst till. Ett överstruket tecken som inte ersatts av en bokstav
+                  för det överstrukna tecknet och <gi>add</gi> för det tecken som lagts till. Ett överstruket tecken som inte ersatts av en bokstav
                   har markerats med <gi>del</gi> och rend="overstrike".</p>
             </correction>
             <punctuation>
@@ -108,7 +106,7 @@
                <p>Rader har markerats med <gi>lb</gi> för att troget återge brevets radbrytning och </p>
                <p>Sidor har markerats med <gi>div</gi> som fått attributet <att>page</att> samt
                   attributet <att>facs</att> följt av filnamnet som innehåller bilden på texten. Ny
-                  sida i telegrammet är också markerat med <gi>pb</gi></p>
+                  sida i brevet är också markerat med <gi>pb</gi>.</p>
                </segmentation>
          </editorialDecl>
       </encodingDesc>
@@ -132,7 +130,8 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>
-                  <forename>Virendranâth</forename> <surname>Chattopaðhyâya</surname></persName>
+                  <forename>Virendranâth</forename> <surname>Chattopaðhyâya</surname>
+               </persName>
                <placeName>Stockholm</placeName>
                <date when="1919-01-28">28 januari 1928</date>
             </correspAction>
@@ -156,7 +155,6 @@
                   <item>
                      <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
                   </item>
-
                   <item>
                      <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
                   </item>
@@ -243,13 +241,12 @@
                <lb/>
                <lb/>Med hänsyn till vikten av de politiska frågorna, som kom- <lb/>ma att<add
                   place="inspace" type="blankSpace">|</add>diskuteras
-               <!--Kalla det något annat än "blankSpace"?--><!--Kan inte se att "inline"/"inspace gör någon skillnad-->
-               vid det möte på <placeName type="building">Auditorium</placeName> i dag, där Ni
+                 vid det möte på <placeName type="building">Auditorium</placeName> i dag, där Ni
                <lb/>skall tala, bedja vi att få fästa Eder uppmärksamhet på den <lb/>indiska frågan,
                samtidigt som vi närsluta några skrifter, som <lb/>Ni benäget torda taga<add
                   place="inline" type="blankSpace">|</add>del av. Å de millioner människors vägnar,
                <lb/>vilka i tysthet lida under de brittiska imperialisternas grym- <lb/>ma
-               utsugningspolitik men vilka sakna möjlighet att göra sina <lb/>röster hörda i Europa,
+               utsugningspolitik men vilka sakna möjlighet att göra sina <lb/>röster hörda i <bloc type="continent">Europa<bloc/></bloc>,
                bedja vi få uttala vår förhoppning, att <lb/>Ni bland de fakta och argument, som i
                afton komma att fram- <lb/>läggas inför den svenska <subst>
                   <del>d</del>
@@ -269,15 +266,15 @@
                välvilliga hägn, utgör det blott en förberedelse <lb/>till ett nytt blodigt krig. Ty
                vi indier och irländare <abbr>m.fl.</abbr>
                <lb/>ha icke för avsikt att lämna världen i fred, förrän all den <lb/>orätt, som
-               begåtts genom <placeName type="country">Storbrittaniens</placeName> vidriga,
+               begåtts genom <placeName type="country">Storbrittanien</placeName>s vidriga,
                imperialist- <lb/>iska kolonialpolitik, blivit <sic>gottgjörd</sic>. Inom <bloc type="continent">Europa</bloc> 
                råder en <lb/>tyst överenskommelse att nedlägga diskussionen angående alla
                <lb/>frågor, som kunna vara mindre behagliga för <placeName type="region">Englands</placeName> statsmän.                
-               <lb/>Vi hoppas innerligt, att <placeName type="country">Sveriges</placeName> kvinnor
+               <lb/>Vi hoppas innerligt, att <placeName type="country">Sverige</placeName>s kvinnor
                icke skola taga del <lb/>i denna överenskommelse. Vi kräva öppen diskussion och ögon-
                <lb/>blicklig rättvisa. <bloc type="continent">Asien</bloc> har ännu icke
-               talat, men om den upp- <lb/>lysta opinionen inom <placeName type="continent"
-                  >Europa</placeName> icke är beredd att i godo uppgöra <lb/>dessa tvistefrågor i
+               talat, men om den upp- <lb/>lysta opinionen inom <placeName type="continent">Europa</placeName> 
+               icke är beredd att i godo uppgöra <lb/>dessa tvistefrågor i
                överensstämmelse med principen om folkens <lb/>fria självbestämmanderätt, kan
                   <bloc type="continent">Asien</bloc> komma att vidtaga åtgärder <lb/>som
                kunna bli ännu mycket oangenämare än de fyra år av blodsut- <lb/>gjutelse, vi
