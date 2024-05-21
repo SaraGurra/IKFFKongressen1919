@@ -144,19 +144,16 @@
             <keywords scheme="https://id.kb.se/">
                <list>
                   <item>
-                     <ref target="
-                        https://id.kb.se/term/kao">KVINNSAM</ref>
+                     <ref target="https://id.kb.se/term/kao">KVINNSAM</ref>
                   </item>
                   <item>
                      <ref target="https://id.kb.se/term/sao/Kvinnohistoria">Kvinnohistoria</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919">
-                        Versaillesfreden 1919</ref>
+                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919"> Versaillesfreden 1919</ref>
                   </item>
                   <item>
-                     <ref target="https://id.kb.se/term/sao/Schweiz--Z%C3%BCrich">
-                        Schweiz--Zürich</ref>
+                     <ref target="https://id.kb.se/term/sao/Schweiz--Z%C3%BCrich">Schweiz--Zürich</ref>
                   </item>
                   <item>
                      <ref target="https://id.kb.se/term/sao/Konferenser">Kongresser</ref>
@@ -167,11 +164,7 @@
                   <item>
                      <ref target="https://id.kb.se/term/sao/Fredsf%C3%B6rdrag">Fredsfördrag</ref>
                   </item>
-                  <item>
-                     <ref target="https://id.kb.se/term/sao/Versaillesfreden%201919"
-                        >Versaillesfreden 1919</ref>
-                  </item>
-               </list>
+                </list>
             </keywords>
          </textClass>
       </profileDesc>
@@ -244,8 +237,7 @@
             <figDesc> Telegram baksida. </figDesc>
             <graphic xml:id="TelegramSidaTreAvTreBaksidaGraphic"
                url="assets/img/documents/TelegramMellanJPG/TelegramSidaTreAvTreBaksida.jpeg"/>
-            
-         </figure>
+           </figure>
       </surface>     
       
    </facsimile>
@@ -287,7 +279,7 @@
                tacitly <lb/>sanction secret diplomacy deny the principle <lb/>of self determination
                recognise the right m f <lb/>the victors to the spoils of war and create <lb/>all
                over <bloc type="contitent">europe</bloc> discords an <sic>animoities</sic> which <lb/>can lead only to future wars
-               by the demand <lb/>for the disarmament of one set of <sic>belligeran ts</sic> <lb/>only the
+               by the demand <lb/>for the disarmament of one set of <sic>belligeran ts</sic><lb/>only the
                principle of justice is violated <lb/>and the rule of force is continued by the
                <lb/>financial and economic proposals a hundred <lb/>million people of this
                <sic>genesation</sic> in the <lb/>heart of <bloc type="continent">europe</bloc> are condemned to poverty
@@ -306,7 +298,7 @@
             <!-- Nedan följer texten på sida 3 -->
             <pb/>
             <p rend="left">nation with a deep sense of respo<add place="inline" hand="OK">n</add>
-               isibility <lb/>this congress strongly urges the allied <lb/>governments to accept
+               isibility <lb/>this <placeName type="event" ref="https://womenvotepeace.com/zurich-congress-1919/">congress</placeName> strongly urges the allied <lb/>governments to accept
                such amendments of <lb/>the terms as may be proposed to bring the <lb/>peace into
                harmony with those <ref target="https://sv.wikipedia.org/wiki/Wilsondoktrinen"
                   >principles</ref>
